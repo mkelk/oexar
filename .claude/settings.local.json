@@ -4,7 +4,11 @@
       "Bash(powershell -Command:*)",
       "Bash(unzip:*)",
       "Bash(powershell:*)",
-      "Bash(del \"c:\\git\\oexar\\initial_docs\\extract.ps1\")"
+      "Bash(del \"c:\\git\\oexar\\initial_docs\\extract.ps1\")",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
