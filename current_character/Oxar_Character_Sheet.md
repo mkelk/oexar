@@ -13,7 +13,7 @@
 
 ---
 
-## Ability Scores
+## Ability Scores *(PHB p. 36)*
 
 | Ability | Score | Modifier |
 |---------|-------|----------|
@@ -26,15 +26,16 @@
 
 ---
 
-## Combat Stats
+## Combat Stats *(PHB pp. 361–365)*
 
 | Stat | Value |
 |------|-------|
-| **Armor Class** | 16 (Chain Mail - heavy armor, no Dex bonus) |
-| **Initiative** | +1 (Dex) |
-| **Speed** | 30 ft (meets STR requirement for heavy armor) |
+| **Armor Class** | 16 (Chain Mail) |
+| **Initiative** | +1 (Dex modifier) |
+| **Speed** | 30 ft |
 | **Hit Points** | 13 (10 + CON +3) |
 | **Hit Dice** | 1d10 |
+| **Proficiency Bonus** | +2 |
 
 ### Saving Throws
 - **STR** +5 (proficient)
@@ -50,6 +51,17 @@
 | Athletics | +5 | Soldier Background |
 | Intimidation | +1 | Soldier Background |
 | Perception | +2 | Human (Skillful) |
+
+> **⚠️ TODO: Choose 2 Fighter Class Skills**
+>
+> Fighters gain proficiency in 2 skills from: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival.
+>
+> Since Athletics, Intimidation, and Perception are already proficient, choose 2 from:
+> - **Acrobatics** (DEX +1)
+> - **Animal Handling** (WIS +0)
+> - **History** (INT +0)
+> - **Insight** (WIS +0)
+> - **Survival** (WIS +0)
 
 ### Tool Proficiencies
 - Gaming set
@@ -67,10 +79,10 @@
 
 ## Features & Traits
 
-### Species: Human
+### Species: Human *(PHB p. 170)*
 
 #### Resourceful
-You gain **Heroic Inspiration** after each Long Rest.
+You gain **Heroic Inspiration** *(PHB p. 38)* after each Long Rest.
 - Heroic Inspiration lets you roll with **Advantage** on a d20 Test (attack roll, saving throw, or ability check).
 
 #### Skillful
@@ -83,7 +95,7 @@ You gain one **Origin Feat** at 1st level.
 
 ---
 
-### Background: Soldier
+### Background: Soldier *(PHB p. 179)*
 
 - **Ability Score Increases:** +2 Strength, +1 Constitution
 - **Skill Proficiencies:** Athletics, Intimidation
@@ -92,7 +104,7 @@ You gain one **Origin Feat** at 1st level.
 
 ---
 
-### Class: Fighter
+### Class: Fighter *(PHB pp. 91–97)*
 
 #### Hit Dice
 - d10 per Fighter level
@@ -107,81 +119,83 @@ You gain one **Origin Feat** at 1st level.
 - Simple and martial weapons
 
 #### Second Wind
-As a **Bonus Action**, heal **1d10 + Fighter level** HP. You regain all uses on a Long Rest.
+As a **Bonus Action**, heal **1d10 + Fighter level** HP. Regain on Long Rest.
 - At Level 1: Heal 1d10 + 1 HP
 
 ---
 
-### Fighting Style: Great Weapon Fighting
+### Fighting Style: Great Weapon Fighting *(PHB p. 95)*
 
 When you roll a **1 or 2** on a damage die for an attack with a melee weapon you are wielding with two hands, you can **reroll the die**. You must use the new roll, even if it is another 1 or 2.
 
 ---
 
-### Subclass: Battle Master (from Level 3)
+### Subclass: Battle Master *(PHB pp. 93–95)* — from Level 3
 
-#### Combat Superiority
-- You gain **Superiority Dice** (d8s) that fuel maneuvers.
-- You know **3 maneuvers** at level 3 (e.g., Precision Attack, Trip Attack, Menacing Attack).
-- When you use a maneuver, you expend a die, add it to damage, and apply the maneuver's effect.
-- **Maneuver Save DC** = 8 + Proficiency Bonus + Strength modifier
+#### Combat Superiority (Level 3)
+- **4 Superiority Dice** (d8s) fuel maneuvers; regain on Short/Long Rest
+- Know **3 maneuvers** at level 3
+- **Maneuver Save DC** = 8 + Proficiency + STR modifier
 
-#### Student of War (Level 7)
-- Proficiency with one artisan's tool.
+#### Student of War (Level 3) — Proficiency with one artisan's tool
 
-#### Improved Combat Superiority (Level 10)
-- Superiority Dice become d10s.
+#### Know Your Enemy (Level 7) — Bonus Action to compare two characteristics with a creature
+
+#### Improved Combat Superiority (Level 10) — Superiority Dice become d10s
 
 ---
 
 ## Feats
 
-### Great Weapon Master (Level 1 - Origin Feat)
+### Great Weapon Master *(PHB p. 201)* — Origin Feat
 
-#### Power Attack
-Before you make a melee attack with a **Heavy** weapon you are proficient with, you can choose to take a **-5 penalty** to the attack roll. If the attack hits, you add **+10 to the damage**.
+**Prerequisite:** Strength or Constitution 13+
 
-#### Bonus Attack
-On your turn, when you score a **critical hit** with a melee weapon or **reduce a creature to 0 HP** with one, you can make one melee weapon attack as a **Bonus Action**.
+**Heavy Weapon Mastery:** When you hit with a **Heavy** weapon as part of the Attack action, deal extra damage equal to your **Proficiency Bonus** (+2 at level 1).
 
----
-
-### Sentinel (Planned for Level 8)
-
-- When you hit a creature with an **Opportunity Attack**, its speed becomes **0** for the rest of the turn.
-- Creatures provoke Opportunity Attacks from you even if they take the **Disengage** action.
-- When a creature within 5 ft of you attacks someone other than you, you can use your **Reaction** to make a melee weapon attack against them.
+**Hew:** After a **Critical Hit** or reducing a creature to **0 HP** with a melee weapon, make one attack with the same weapon as a **Bonus Action**.
 
 ---
 
-## Equipment
+### Sentinel *(PHB p. 206)* — Planned for Level 8
 
-### Weapons
+**Prerequisite:** Strength or Dexterity 13+
 
-#### Greataxe (Primary)
+- **Opportunity Attack** reduces target's speed to **0** for the turn
+- Creatures provoke Opportunity Attacks even if they **Disengage**
+- **Reaction** melee attack when a creature within 5 ft attacks someone other than you
+
+---
+
+## Equipment *(PHB pp. 213–222)*
+
+### Weapons *(PHB pp. 213–215)*
+
+#### Greataxe *(p. 215)* — Primary
 | Stat | Value |
 |------|-------|
-| Attack Bonus | +5 (STR +3, Proficiency +2) |
+| Attack Bonus | +5 (STR +3, Prof +2) |
 | Damage | 1d12 + 3 slashing |
 | Properties | Heavy, Two-Handed |
-| Weapon Mastery | **Cleave** - On hit, deal damage equal to proficiency bonus (+2) to another enemy within 5 ft of the target |
+| Mastery | **Cleave** *(p. 213)* — deal +2 to another enemy within 5 ft |
 
-#### Handaxes (x2)
+#### Handaxes (x2) *(p. 215)*
 | Stat | Value |
 |------|-------|
 | Attack Bonus | +5 |
 | Damage | 1d6 + 3 slashing |
 | Properties | Light, Thrown (20/60 ft) |
+| Mastery | **Vex** *(p. 214)* — Advantage on next attack vs. same creature |
 
-### Armor
+### Armor *(PHB pp. 218–219)*
 
-#### Chain Mail
+#### Chain Mail *(p. 219)*
 | Stat | Value |
 |------|-------|
 | Type | Heavy Armor |
 | AC | 16 |
 | Requirements | STR 13 |
-| Notes | No Dexterity bonus, Disadvantage on Stealth |
+| Notes | No Dex bonus, Stealth Disadvantage |
 
 ### Adventuring Gear
 
@@ -200,20 +214,22 @@ On your turn, when you score a **critical hit** with a melee weapon or **reduce 
 
 ## Quick Reference: Attack Options
 
-### Standard Greataxe Attack
+### Greataxe Attack
 - **To Hit:** +5
-- **Damage:** 1d12 + 3 (reroll 1s and 2s)
-- **Cleave:** On hit, deal +2 damage to adjacent enemy
+- **Damage:** 1d12 + 3 slashing (reroll 1s and 2s from Great Weapon Fighting)
+- **With GWM:** Add +2 damage (Proficiency Bonus) once per turn
+- **Cleave Mastery:** On hit, deal 2 slashing damage to one other creature within 5 ft
 
-### Power Attack (Great Weapon Master)
-- **To Hit:** +0 (-5 penalty)
-- **Damage:** 1d12 + 13 (+10 bonus)
-- **Cleave:** On hit, deal +2 damage to adjacent enemy
+**Typical Attack (with GWM):** +5 to hit, 1d12 + 5 slashing, plus Cleave
 
 ### Handaxe (Melee or Thrown)
 - **To Hit:** +5
-- **Damage:** 1d6 + 3
+- **Damage:** 1d6 + 3 slashing
 - **Range:** 20/60 ft (thrown)
+
+### Bonus Action Options
+- **Second Wind:** Heal 1d10 + 1 HP (1/Long Rest)
+- **Hew (GWM):** Extra attack after crit or reducing enemy to 0 HP
 
 ---
 
