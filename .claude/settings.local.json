@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command:*)",
+      "Bash(unzip:*)",
+      "Bash(powershell:*)",
+      "Bash(del \"c:\\git\\oexar\\initial_docs\\extract.ps1\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
