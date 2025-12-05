@@ -1,5 +1,25 @@
 # Øxar Character Log
 
+## 2025-12-04
+
+### Level Up to 2
+Updated character sheet to Level 2 based on handwritten sheet comparison:
+- **Level:** 1 → 2
+- **Hit Points:** 13 → 24 (10+3 at L1, 8+3 at L2)
+- **Hit Dice:** 1d10 → 2d10
+- **Action Surge** added *(PHB p. 92)* — 1 additional Action per Short/Long Rest
+- **Second Wind** updated to heal 1d10+2, regains on Short Rest (corrected)
+- **Skillful trait:** Changed from Perception to **Stealth** (+3)
+- Added "Last Updated" date to character sheet header
+- Reformatted Resources Per Rest as a table
+
+### Outstanding TODO
+- **⚠️ PLAYER ACTION REQUIRED: Choose 2 Fighter class skill proficiencies**
+  - Options: Acrobatics, Animal Handling, History, Insight, Perception, or Survival
+  - (Athletics, Intimidation, Stealth already taken)
+
+---
+
 ## 2025-12-03
 
 ### PHB 2024 Page References Added
@@ -28,13 +48,6 @@ Added inline cross-references throughout the character sheet for easy lookup and
   - Added page reference (PHB 2024, p. 201)
 - **Attack quick reference updated** to reflect correct 2024 GWM mechanics
 - **Added bonus action options** to quick reference for clarity
-
-### Outstanding TODO
-- **⚠️ PLAYER ACTION REQUIRED: Choose 2 Fighter class skill proficiencies**
-  - Options: Acrobatics, Animal Handling, History, Insight, or Survival
-  - (Athletics, Intimidation, Perception already taken from other sources)
-
----
 
 ### Initial Entry
 - Initialized

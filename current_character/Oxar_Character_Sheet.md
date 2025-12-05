@@ -1,5 +1,7 @@
 # Øxar - Character Sheet
 
+*Last Updated: 2025-12-04*
+
 ## Basic Information
 
 | Attribute | Value |
@@ -8,8 +10,8 @@
 | **Species** | Human |
 | **Class** | Fighter (Battle Master from Level 3) |
 | **Background** | Soldier |
-| **Alignment** | TBD |
-| **Level** | 1 |
+| **Alignment** | Chaotic Good |
+| **Level** | 2 |
 
 ---
 
@@ -33,8 +35,8 @@
 | **Armor Class** | 16 (Chain Mail) |
 | **Initiative** | +1 (Dex modifier) |
 | **Speed** | 30 ft |
-| **Hit Points** | 13 (10 + CON +3) |
-| **Hit Dice** | 1d10 |
+| **Hit Points** | 24 (Level 1: 10+3, Level 2: 8+3) |
+| **Hit Dice** | 2d10 |
 | **Proficiency Bonus** | +2 |
 
 ### Saving Throws
@@ -50,18 +52,19 @@
 |-------|-------|--------|
 | Athletics | +5 | Soldier Background |
 | Intimidation | +1 | Soldier Background |
-| Perception | +2 | Human (Skillful) |
+| Stealth | +3 | Human (Skillful) |
 
 > **⚠️ TODO: Choose 2 Fighter Class Skills**
 >
-> Fighters gain proficiency in 2 skills from: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival.
+> Fighters gain proficiency in 2 skills from: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival. *(PHB p. 91)*
 >
-> Since Athletics, Intimidation, and Perception are already proficient, choose 2 from:
-> - **Acrobatics** (DEX +1)
-> - **Animal Handling** (WIS +0)
-> - **History** (INT +0)
-> - **Insight** (WIS +0)
-> - **Survival** (WIS +0)
+> Since Athletics and Intimidation are already proficient, choose 2 from:
+> - **Acrobatics** (+3)
+> - **Animal Handling** (+2)
+> - **History** (+2)
+> - **Insight** (+2)
+> - **Perception** (+2)
+> - **Survival** (+2)
 
 ### Tool Proficiencies
 - Gaming set
@@ -87,7 +90,7 @@ You gain **Heroic Inspiration** *(PHB p. 38)* after each Long Rest.
 
 #### Skillful
 You gain proficiency in one extra skill of your choice.
-- Øxar has chosen **Perception**.
+- Øxar has chosen **Stealth**.
 
 #### Versatile
 You gain one **Origin Feat** at 1st level.
@@ -118,9 +121,12 @@ You gain one **Origin Feat** at 1st level.
 #### Weapon Proficiencies
 - Simple and martial weapons
 
-#### Second Wind
-As a **Bonus Action**, heal **1d10 + Fighter level** HP. Regain on Long Rest.
-- At Level 1: Heal 1d10 + 1 HP
+#### Second Wind *(PHB p. 91)*
+As a **Bonus Action**, heal **1d10 + Fighter level** HP. Regain on Short or Long Rest.
+- At Level 2: Heal 1d10 + 2 HP
+
+#### Action Surge *(PHB p. 92)* — Level 2
+On your turn, take one additional **Action**. Usable **once per Short or Long Rest**.
 
 ---
 
@@ -228,20 +234,22 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 - **Range:** 20/60 ft (thrown)
 
 ### Bonus Action Options
-- **Second Wind:** Heal 1d10 + 1 HP (1/Long Rest)
+- **Second Wind:** Heal 1d10 + 2 HP (1/Short or Long Rest)
 - **Hew (GWM):** Extra attack after crit or reducing enemy to 0 HP
+
+### Action Options
+- **Action Surge:** Take one additional Action (1/Short or Long Rest)
 
 ---
 
 ## Resources Per Rest
 
-### Short Rest
-- Second Wind: Regained (2024 rules may vary)
-
-### Long Rest
-- Heroic Inspiration: Gained automatically
-- Second Wind: Regained
-- Hit Dice: Regain half (rounded down, minimum 1)
+| Resource | Short Rest | Long Rest |
+|----------|------------|-----------|
+| Second Wind | ✓ Regain | ✓ Regain |
+| Action Surge | ✓ Regain | ✓ Regain |
+| Heroic Inspiration | — | ✓ Gain |
+| Hit Dice | — | Regain half (min 1) |
 
 ---
 
