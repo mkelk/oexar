@@ -20,6 +20,26 @@
 |----------|------------------------------------------|
 | Cleave | Second attack vs. adjacent creature (1d12 only) |
 
+---
+
+## Session Tracker
+
+**Current HP:** _____ / 37
+
+**Death Saves:** Success ○ ○ ○ | Failure ○ ○ ○
+
+| Resource | Track | Recovery |
+|----------|-------|----------|
+| **Hit Dice** (d10+3) | ○ ○ ○ | Long Rest (regain half) |
+| **Second Wind** (1d10+3 HP) | ○ ○ | 1/Short, all/Long |
+| **Action Surge** | ○ | Short/Long |
+| **Superiority Dice** (d8) | ○ ○ ○ ○ | Short/Long |
+| **Heroic Inspiration** | ○ | Long Rest |
+
+---
+
+## Resources Reference
+
 | Resources | Uses | Recovery |
 |-----------|------|----------|
 | Second Wind (1d10+3 HP) | 2 | 1/Short, all/Long |
