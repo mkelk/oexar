@@ -32,6 +32,11 @@ Discovered that **Great Weapon Master is NOT an Origin Feat** — it's a General
 - Moved planned feats (GWM, Sentinel) to new "Planned Features" section at end of document
 - Added Maneuvers and Reaction Options to Quick Reference
 
+#### Great Weapon Fighting Correction
+- **2024 rule:** Treat 1s and 2s as 3s (no reroll)
+- **2014 rule (old):** Reroll 1s and 2s, must use new result
+- Updated Fighting Style description, weapon entries, and Quick Reference
+
 #### Remaining TODO
 - **Additional Language** — Still needs to be chosen
 

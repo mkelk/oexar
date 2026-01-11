@@ -16,7 +16,7 @@
 |-------|---|
 | **STR** +5 | **CON** +5 |
 
-| Greataxe | +5 to hit, 1d12+3 slashing (reroll 1-2) |
+| Greataxe | +5 to hit, 1d12+3 slashing (1-2 = 3) |
 |----------|------------------------------------------|
 | Cleave | Second attack vs. adjacent creature (1d12 only) |
 
@@ -164,7 +164,7 @@ On your turn, take one additional **Action**. Usable **once per Short or Long Re
 
 ### Fighting Style: Great Weapon Fighting *(PHB p. 95)*
 
-When you roll a **1 or 2** on a damage die for an attack with a melee weapon held in **two hands**, you can **reroll the die** (must use the new roll). The weapon must have the Two-Handed or Versatile property.
+When you roll damage for an attack with a melee weapon held in **two hands**, you can treat any **1 or 2** on a damage die as a **3**. The weapon must have the Two-Handed or Versatile property.
 
 ---
 
@@ -223,7 +223,7 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 | Damage | 1d12 + 3 slashing |
 | Properties | Heavy, Two-Handed |
 | Mastery | **Cleave** *(p. 214)* — on hit, make another attack vs. a second creature within 5 ft of the first (weapon damage only, no ability mod). 1/turn |
-| GWF | Reroll 1s and 2s on damage die (must use new roll) |
+| GWF | Treat 1s and 2s as 3s on damage die |
 
 #### Handaxes (x2) *(p. 215)*
 | Stat | Value |
@@ -240,9 +240,9 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 | Damage | 2d6 + 3 slashing |
 | Properties | Heavy, Two-Handed |
 | Mastery | **Graze** *(p. 214)* — on a miss, still deal damage equal to STR mod (+3) |
-| GWF | Reroll 1s and 2s on each damage die (must use new roll) |
+| GWF | Treat 1s and 2s as 3s on each damage die |
 
-> *Note: 2d6 averages higher than 1d12 (7 vs 6.5) and benefits more from Great Weapon Fighting (two dice to potentially reroll).*
+> *Note: 2d6 averages higher than 1d12 (7 vs 6.5) and benefits more from Great Weapon Fighting (two dice that can be bumped to 3).*
 
 ### Armor *(PHB pp. 218–219)*
 
@@ -274,10 +274,10 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 ### Greataxe Attack
 - **To Hit:** +5
 - **Damage:** 1d12 + 3 slashing
-- **GWF:** Reroll 1s and 2s on the d12 (must use new roll)
+- **GWF:** Treat 1s and 2s as 3s
 - **Cleave Mastery:** On hit, make a second attack (+5) vs. creature within 5 ft of the first; deals 1d12 only (no STR mod). 1/turn
 
-**Typical Attack:** +5 to hit, 1d12 + 3 slashing (reroll 1-2), plus Cleave
+**Typical Attack:** +5 to hit, 1d12 + 3 slashing (1-2 = 3), plus Cleave
 
 ### Handaxe (Melee or Thrown)
 - **To Hit:** +5
