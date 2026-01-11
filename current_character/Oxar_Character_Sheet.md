@@ -1,6 +1,6 @@
 # Øxar - Character Sheet
 
-*Last Updated: 2026-01-11*
+*Last Updated: 2026-01-11 (replaced GWM with Tough)*
 
 ---
 
@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| **AC** 16 | **HP** 24 |
+| **AC** 16 | **HP** 28 |
 | **Speed** 30 ft | **Initiative** +1 |
 | **Prof Bonus** +2 | **Passive Perception** 12 |
 
@@ -16,10 +16,9 @@
 |-------|---|
 | **STR** +5 | **CON** +5 |
 
-| Greataxe | +5 to hit, 1d12+5 slashing (reroll 1-2) |
+| Greataxe | +5 to hit, 1d12+3 slashing (reroll 1-2) |
 |----------|------------------------------------------|
 | Cleave | Second attack vs. adjacent creature (1d12 only) |
-| Hew | Bonus action attack after crit or kill |
 
 | Resources | Uses | Recovery |
 |-----------|------|----------|
@@ -63,7 +62,7 @@
 | **Armor Class** | 16 (Chain Mail) |
 | **Initiative** | +1 (Dex modifier) |
 | **Speed** | 30 ft |
-| **Hit Points** | 24 (Level 1: 10+3, Level 2: 8+3) |
+| **Hit Points** | 28 (Level 1: 10+3, Level 2: 8+3, Tough: +4) |
 | **Hit Dice** | 2d10 |
 | **Proficiency Bonus** | +2 |
 
@@ -119,7 +118,7 @@ You gain proficiency in one extra skill of your choice.
 
 #### Versatile
 You gain one **Origin Feat** at 1st level.
-- Øxar has chosen **Great Weapon Master**.
+- Øxar has chosen **Tough**.
 
 ---
 
@@ -181,13 +180,13 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon hel
 
 ## Feats
 
-### Great Weapon Master *(PHB p. 201)* — Origin Feat
+### Tough *(PHB p. 207)* — Origin Feat
 
-**Prerequisite:** Strength or Constitution 13+
+**Prerequisite:** None
 
-**Heavy Weapon Mastery:** When you hit with a **Heavy** weapon as part of the Attack action, deal extra damage equal to your **Proficiency Bonus** (+2 at level 1).
+Your Hit Point Maximum increases by an amount equal to **twice your character level** when you gain this feat. Whenever you gain a level thereafter, your Hit Point Maximum increases by an additional **2 Hit Points**.
 
-**Hew:** After a **Critical Hit** or reducing a creature to **0 HP** with a melee weapon, make one attack with the same weapon as a **Bonus Action**.
+- At Level 2: +4 HP
 
 ---
 
@@ -196,6 +195,16 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon hel
 **Prerequisite:** None
 
 Once per turn when you hit with a weapon, you can **reroll the weapon's damage dice** and use either roll.
+
+---
+
+### Great Weapon Master *(PHB p. 201)* — Planned for Level 4
+
+**Prerequisite:** Strength 13+, Level 4+
+
+- **+1 Strength** (to 18, modifier becomes +4)
+- **Heavy Weapon Mastery:** Add Proficiency Bonus to damage with Heavy weapons
+- **Hew:** Bonus Action attack after crit or reducing creature to 0 HP
 
 ---
 
@@ -272,10 +281,9 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 - **To Hit:** +5
 - **Damage:** 1d12 + 3 slashing
 - **GWF:** Reroll 1s and 2s on the d12 (must use new roll)
-- **With GWM:** Add +2 damage (Proficiency Bonus) once per turn
 - **Cleave Mastery:** On hit, make a second attack (+5) vs. creature within 5 ft of the first; deals 1d12 only (no STR mod). 1/turn
 
-**Typical Attack (with GWM):** +5 to hit, 1d12 + 5 slashing (reroll 1-2), plus Cleave
+**Typical Attack:** +5 to hit, 1d12 + 3 slashing (reroll 1-2), plus Cleave
 
 ### Handaxe (Melee or Thrown)
 - **To Hit:** +5
@@ -284,7 +292,6 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 
 ### Bonus Action Options
 - **Second Wind:** Heal 1d10 + 2 HP (2 uses; regain 1 on Short, all on Long Rest)
-- **Hew (GWM):** Extra attack after crit or reducing enemy to 0 HP
 
 ### Action Options
 - **Action Surge:** Take one additional Action (1/Short or Long Rest)
