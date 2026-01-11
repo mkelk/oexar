@@ -8,10 +8,16 @@ Full validation against 2024 PHB rules revealed the following:
 
 #### Fixed
 - **Savage Attacker now a current feat** — Soldier background grants this as an Origin Feat (PHB p. 179). Combined with Human Versatile (Great Weapon Master), Øxar has TWO Origin Feats at level 1. Previously incorrectly listed as "Planned for Level 4".
+- **Fighting Style corrected to Great Weapon Fighting** — Was incorrectly listed as Defense
+- **AC corrected from 17 to 16** — Chain Mail only (no +1 from Defense fighting style)
+- **Added GWF reroll notes** — Greataxe weapon entry and Quick Reference now note the 1-2 reroll mechanic
 
 #### New TODOs Added
 - **3rd Weapon Mastery** — Fighters know 3 masteries at level 1; only Cleave and Vex were assigned
 - **Additional Language** — Humans know Common plus one other language (PHB p. 170)
+
+#### Clarified
+- **Battle Master section** — Added "Not yet active" note to clarify these features unlock at Level 3+
 
 #### Verified Correct
 - Ability scores, modifiers, HP, AC, saving throws
@@ -19,6 +25,13 @@ Full validation against 2024 PHB rules revealed the following:
 - Great Weapon Master 2024 version
 - Weapon stats and existing masteries
 - Battle Master subclass preview
+
+#### External Audit Reviewed
+Reviewed third-party audit that claimed several errors. Most claims were based on 2014 rules, not 2024:
+- Background ASIs: Exist in 2024 (PHB p. 179)
+- Second Wind 2 uses: Correct for 2024 (PHB p. 91)
+- GWM +PB damage: Exists in 2024 (PHB p. 201)
+- Two Origin Feats: Legal for Humans via Versatile trait (PHB p. 170)
 
 ---
 

@@ -32,7 +32,7 @@
 
 | Stat | Value |
 |------|-------|
-| **Armor Class** | 17 (Chain Mail + Defense) |
+| **Armor Class** | 16 (Chain Mail) |
 | **Initiative** | +1 (Dex modifier) |
 | **Speed** | 30 ft |
 | **Hit Points** | 24 (Level 1: 10+3, Level 2: 8+3) |
@@ -138,13 +138,15 @@ On your turn, take one additional **Action**. Usable **once per Short or Long Re
 
 ---
 
-### Fighting Style: Defense *(PHB p. 95)*
+### Fighting Style: Great Weapon Fighting *(PHB p. 95)*
 
-While you are wearing armor, you gain a **+1 bonus to Armor Class**.
+When you roll a **1 or 2** on a damage die for an attack with a melee weapon held in **two hands**, you can **reroll the die** (must use the new roll). The weapon must have the Two-Handed or Versatile property.
 
 ---
 
-### Subclass: Battle Master *(PHB pp. 93–95)* — from Level 3
+### Subclass: Battle Master *(PHB pp. 93–95)*
+
+> **Not yet active** — These features unlock at Level 3+. Listed here for planning.
 
 #### Combat Superiority (Level 3)
 - **4 Superiority Dice** (d8s) fuel maneuvers; regain on Short/Long Rest
@@ -200,6 +202,7 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 | Damage | 1d12 + 3 slashing |
 | Properties | Heavy, Two-Handed |
 | Mastery | **Cleave** *(p. 214)* — on hit, make another attack vs. a second creature within 5 ft of the first (weapon damage only, no ability mod). 1/turn |
+| GWF | Reroll 1s and 2s on damage die (must use new roll) |
 
 #### Handaxes (x2) *(p. 215)*
 | Stat | Value |
@@ -244,10 +247,11 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 ### Greataxe Attack
 - **To Hit:** +5
 - **Damage:** 1d12 + 3 slashing
+- **GWF:** Reroll 1s and 2s on the d12 (must use new roll)
 - **With GWM:** Add +2 damage (Proficiency Bonus) once per turn
 - **Cleave Mastery:** On hit, make a second attack (+5) vs. creature within 5 ft of the first; deals 1d12 only (no STR mod). 1/turn
 
-**Typical Attack (with GWM):** +5 to hit, 1d12 + 5 slashing, plus Cleave
+**Typical Attack (with GWM):** +5 to hit, 1d12 + 5 slashing (reroll 1-2), plus Cleave
 
 ### Handaxe (Melee or Thrown)
 - **To Hit:** +5
