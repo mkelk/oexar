@@ -1,6 +1,6 @@
 # Øxar - Character Sheet
 
-*Last Updated: 2025-12-04*
+*Last Updated: 2026-01-11*
 
 ## Basic Information
 
@@ -65,6 +65,13 @@
 > - **Insight** (+2)
 > - **Perception** (+2)
 > - **Survival** (+2)
+
+### Languages
+- Common
+
+> **TODO: Choose Additional Language**
+>
+> Humans know Common plus one additional language *(PHB p. 170)*.
 
 ### Tool Proficiencies
 - Gaming set
@@ -164,7 +171,7 @@ While you are wearing armor, you gain a **+1 bonus to Armor Class**.
 
 ---
 
-### Savage Attacker *(PHB p. 205)* — Planned for Level 4
+### Savage Attacker *(PHB p. 205)* — Origin Feat (Soldier Background)
 
 **Prerequisite:** None
 
@@ -201,6 +208,11 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 | Damage | 1d6 + 3 slashing |
 | Properties | Light, Thrown (20/60 ft) |
 | Mastery | **Vex** *(p. 214)* — Advantage on next attack vs. same creature |
+
+> **TODO: Choose 3rd Weapon Mastery**
+>
+> Fighters know 3 weapon masteries at level 1 *(PHB p. 91)*. Currently only 2 are assigned (Cleave, Vex).
+> Choose a 3rd mastery for any weapon Øxar is proficient with.
 
 ### Armor *(PHB pp. 218–219)*
 

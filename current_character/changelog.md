@@ -1,5 +1,27 @@
 # Øxar Character Log
 
+## 2026-01-11
+
+### Character Sheet Validation & Corrections
+
+Full validation against 2024 PHB rules revealed the following:
+
+#### Fixed
+- **Savage Attacker now a current feat** — Soldier background grants this as an Origin Feat (PHB p. 179). Combined with Human Versatile (Great Weapon Master), Øxar has TWO Origin Feats at level 1. Previously incorrectly listed as "Planned for Level 4".
+
+#### New TODOs Added
+- **3rd Weapon Mastery** — Fighters know 3 masteries at level 1; only Cleave and Vex were assigned
+- **Additional Language** — Humans know Common plus one other language (PHB p. 170)
+
+#### Verified Correct
+- Ability scores, modifiers, HP, AC, saving throws
+- Second Wind (2 uses), Action Surge, Heroic Inspiration
+- Great Weapon Master 2024 version
+- Weapon stats and existing masteries
+- Battle Master subclass preview
+
+---
+
 ## 2025-12-04
 
 ### Level Up to 2
