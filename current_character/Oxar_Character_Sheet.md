@@ -230,10 +230,16 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 | Properties | Light, Thrown (20/60 ft) |
 | Mastery | **Vex** *(p. 214)* — Advantage on next attack vs. same creature |
 
-> **TODO: Choose 3rd Weapon Mastery**
->
-> Fighters know 3 weapon masteries at level 1 *(PHB p. 91)*. Currently only 2 are assigned (Cleave, Vex).
-> Choose a 3rd mastery for any weapon Øxar is proficient with.
+#### Greatsword *(p. 215)* — Mastery Known (not currently owned)
+| Stat | Value |
+|------|-------|
+| Attack Bonus | +5 (STR +3, Prof +2) |
+| Damage | 2d6 + 3 slashing |
+| Properties | Heavy, Two-Handed |
+| Mastery | **Graze** *(p. 214)* — on a miss, still deal damage equal to STR mod (+3) |
+| GWF | Reroll 1s and 2s on each damage die (must use new roll) |
+
+> *Note: 2d6 averages higher than 1d12 (7 vs 6.5) and benefits more from Great Weapon Fighting (two dice to potentially reroll).*
 
 ### Armor *(PHB pp. 218–219)*
 
