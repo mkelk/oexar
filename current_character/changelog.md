@@ -11,6 +11,8 @@ Full validation against 2024 PHB rules revealed the following:
 - **Fighting Style corrected to Great Weapon Fighting** — Was incorrectly listed as Defense
 - **AC corrected from 17 to 16** — Chain Mail only (no +1 from Defense fighting style)
 - **Added GWF reroll notes** — Greataxe weapon entry and Quick Reference now note the 1-2 reroll mechanic
+- **Fighter class skills chosen** — Perception (+2) and Survival (+2)
+- **Added Quick Summary section** — At-a-glance combat stats, saves, Greataxe attack, and resources at the top of the sheet
 
 #### New TODOs Added
 - **3rd Weapon Mastery** — Fighters know 3 masteries at level 1; only Cleave and Vex were assigned

@@ -2,6 +2,34 @@
 
 *Last Updated: 2026-01-11*
 
+---
+
+## Quick Summary
+
+| | |
+|---|---|
+| **AC** 16 | **HP** 24 |
+| **Speed** 30 ft | **Initiative** +1 |
+| **Prof Bonus** +2 | **Passive Perception** 12 |
+
+| Saves | |
+|-------|---|
+| **STR** +5 | **CON** +5 |
+
+| Greataxe | +5 to hit, 1d12+5 slashing (reroll 1-2) |
+|----------|------------------------------------------|
+| Cleave | Second attack vs. adjacent creature (1d12 only) |
+| Hew | Bonus action attack after crit or kill |
+
+| Resources | Uses | Recovery |
+|-----------|------|----------|
+| Second Wind (1d10+2 HP) | 2 | 1/Short, all/Long |
+| Action Surge (+1 Action) | 1 | Short/Long |
+| Heroic Inspiration (Adv) | 1 | Long Rest |
+| Savage Attacker (reroll dmg) | 1/turn | — |
+
+---
+
 ## Basic Information
 
 | Attribute | Value |
@@ -47,24 +75,14 @@
 
 ## Skills & Proficiencies
 
-### Proficient Skills 
+### Proficient Skills
 | Skill | Bonus | Source |
 |-------|-------|--------|
-| Athletics (STR) | +5 | Soldier  |
-| Intimidation (CHA) | +1 | Soldier  |
+| Athletics (STR) | +5 | Soldier |
+| Intimidation (CHA) | +1 | Soldier |
+| Perception (WIS) | +2 | Fighter *(PHB p. 91)* |
 | Stealth (DEX) | +3 | Human Skillful *(p. 194)* |
-
-> **⚠️ TODO: Choose 2 Fighter Class Skills**
->
-> Fighters gain proficiency in 2 skills from: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival. *(PHB p. 91)*
->
-> Since Athletics and Intimidation are already proficient, choose 2 from:
-> - **Acrobatics** (+3)
-> - **Animal Handling** (+2)
-> - **History** (+2)
-> - **Insight** (+2)
-> - **Perception** (+2)
-> - **Survival** (+2)
+| Survival (WIS) | +2 | Fighter *(PHB p. 91)* |
 
 ### Languages
 - Common
