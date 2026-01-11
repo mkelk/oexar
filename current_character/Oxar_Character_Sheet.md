@@ -17,14 +17,14 @@
 
 ## Ability Scores *(PHB p. 36)*
 
-| Ability | Score | Modifier |
-|---------|-------|----------|
-| **STR** | 17 | +3 |
-| **DEX** | 12 | +1 |
-| **CON** | 16 | +3 |
-| **INT** | 10 | +0 |
-| **WIS** | 11 | +0 |
-| **CHA** | 8 | -1 |
+| Ability | Base | Bonus | Score | Modifier |
+|---------|------|-------|-------|----------|
+| **STR** | 15 | +2 (Soldier) | 17 | +3 |
+| **DEX** | 12 | — | 12 | +1 |
+| **CON** | 15 | +1 (Soldier) | 16 | +3 |
+| **INT** | 10 | — | 10 | +0 |
+| **WIS** | 11 | — | 11 | +0 |
+| **CHA** | 8 | — | 8 | -1 |
 
 ---
 
@@ -32,7 +32,7 @@
 
 | Stat | Value |
 |------|-------|
-| **Armor Class** | 16 (Chain Mail) |
+| **Armor Class** | 17 (Chain Mail + Defense) |
 | **Initiative** | +1 (Dex modifier) |
 | **Speed** | 30 ft |
 | **Hit Points** | 24 (Level 1: 10+3, Level 2: 8+3) |
@@ -47,12 +47,12 @@
 
 ## Skills & Proficiencies
 
-### Proficient Skills
+### Proficient Skills 
 | Skill | Bonus | Source |
 |-------|-------|--------|
-| Athletics | +5 | Soldier Background |
-| Intimidation | +1 | Soldier Background |
-| Stealth | +3 | Human (Skillful) |
+| Athletics (STR) | +5 | Soldier  |
+| Intimidation (CHA) | +1 | Soldier  |
+| Stealth (DEX) | +3 | Human Skillful *(p. 194)* |
 
 > **⚠️ TODO: Choose 2 Fighter Class Skills**
 >
@@ -122,17 +122,18 @@ You gain one **Origin Feat** at 1st level.
 - Simple and martial weapons
 
 #### Second Wind *(PHB p. 91)*
-As a **Bonus Action**, heal **1d10 + Fighter level** HP. Regain on Short or Long Rest.
-- At Level 2: Heal 1d10 + 2 HP
+As a **Bonus Action**, heal **1d10 + Fighter level** HP. You have **2 uses**.
+- Regain **1 use** on Short Rest, **all uses** on Long Rest
+- At Level 2: Heal 1d10 + 2 HP per use
 
 #### Action Surge *(PHB p. 92)* — Level 2
 On your turn, take one additional **Action**. Usable **once per Short or Long Rest**.
 
 ---
 
-### Fighting Style: Great Weapon Fighting *(PHB p. 95)*
+### Fighting Style: Defense *(PHB p. 95)*
 
-When you roll a **1 or 2** on a damage die for an attack with a melee weapon you are wielding with two hands, you can **reroll the die**. You must use the new roll, even if it is another 1 or 2.
+While you are wearing armor, you gain a **+1 bonus to Armor Class**.
 
 ---
 
@@ -163,6 +164,14 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 
 ---
 
+### Savage Attacker *(PHB p. 205)* — Planned for Level 4
+
+**Prerequisite:** None
+
+Once per turn when you hit with a weapon, you can **reroll the weapon's damage dice** and use either roll.
+
+---
+
 ### Sentinel *(PHB p. 206)* — Planned for Level 8
 
 **Prerequisite:** Strength or Dexterity 13+
@@ -183,7 +192,7 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 | Attack Bonus | +5 (STR +3, Prof +2) |
 | Damage | 1d12 + 3 slashing |
 | Properties | Heavy, Two-Handed |
-| Mastery | **Cleave** *(p. 213)* — deal +2 to another enemy within 5 ft |
+| Mastery | **Cleave** *(p. 214)* — on hit, make another attack vs. a second creature within 5 ft of the first (weapon damage only, no ability mod). 1/turn |
 
 #### Handaxes (x2) *(p. 215)*
 | Stat | Value |
@@ -222,9 +231,9 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 
 ### Greataxe Attack
 - **To Hit:** +5
-- **Damage:** 1d12 + 3 slashing (reroll 1s and 2s from Great Weapon Fighting)
+- **Damage:** 1d12 + 3 slashing
 - **With GWM:** Add +2 damage (Proficiency Bonus) once per turn
-- **Cleave Mastery:** On hit, deal 2 slashing damage to one other creature within 5 ft
+- **Cleave Mastery:** On hit, make a second attack (+5) vs. creature within 5 ft of the first; deals 1d12 only (no STR mod). 1/turn
 
 **Typical Attack (with GWM):** +5 to hit, 1d12 + 5 slashing, plus Cleave
 
@@ -234,7 +243,7 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 - **Range:** 20/60 ft (thrown)
 
 ### Bonus Action Options
-- **Second Wind:** Heal 1d10 + 2 HP (1/Short or Long Rest)
+- **Second Wind:** Heal 1d10 + 2 HP (2 uses; regain 1 on Short, all on Long Rest)
 - **Hew (GWM):** Extra attack after crit or reducing enemy to 0 HP
 
 ### Action Options
@@ -244,12 +253,12 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon you
 
 ## Resources Per Rest
 
-| Resource | Short Rest | Long Rest |
-|----------|------------|-----------|
-| Second Wind | ✓ Regain | ✓ Regain |
-| Action Surge | ✓ Regain | ✓ Regain |
-| Heroic Inspiration | — | ✓ Gain |
-| Hit Dice | — | Regain half (min 1) |
+| Resource | Uses | Short Rest | Long Rest |
+|----------|------|------------|-----------|
+| Second Wind | 2 | Regain 1 | Regain all |
+| Action Surge | 1 | ✓ Regain | ✓ Regain |
+| Heroic Inspiration | 1 | — | ✓ Gain |
+| Hit Dice | 2 | — | Regain half (min 1) |
 
 ---
 
