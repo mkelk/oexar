@@ -1,6 +1,6 @@
 # Øxar - Character Sheet
 
-*Last Updated: 2026-01-11 (replaced GWM with Tough)*
+*Last Updated: 2026-01-11 (Level 3 - Battle Master)*
 
 ---
 
@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| **AC** 16 | **HP** 28 |
+| **AC** 16 | **HP** 37 |
 | **Speed** 30 ft | **Initiative** +1 |
 | **Prof Bonus** +2 | **Passive Perception** 12 |
 
@@ -22,8 +22,10 @@
 
 | Resources | Uses | Recovery |
 |-----------|------|----------|
-| Second Wind (1d10+2 HP) | 2 | 1/Short, all/Long |
+| Second Wind (1d10+3 HP) | 2 | 1/Short, all/Long |
+| Tactical Mind (+1d10 to check) | — | Uses Second Wind |
 | Action Surge (+1 Action) | 1 | Short/Long |
+| Superiority Dice (d8) | 4 | Short/Long |
 | Heroic Inspiration (Adv) | 1 | Long Rest |
 | Savage Attacker (reroll dmg) | 1/turn | — |
 
@@ -38,7 +40,7 @@
 | **Class** | Fighter (Battle Master from Level 3) |
 | **Background** | Soldier |
 | **Alignment** | Chaotic Good |
-| **Level** | 2 |
+| **Level** | 3 |
 
 ---
 
@@ -62,8 +64,8 @@
 | **Armor Class** | 16 (Chain Mail) |
 | **Initiative** | +1 (Dex modifier) |
 | **Speed** | 30 ft |
-| **Hit Points** | 28 (Level 1: 10+3, Level 2: 8+3, Tough: +4) |
-| **Hit Dice** | 2d10 |
+| **Hit Points** | 37 (Level 1: 10+3, Level 2: 6+3, Level 3: 6+3, Tough: +6) |
+| **Hit Dice** | 3d10 |
 | **Proficiency Bonus** | +2 |
 
 ### Saving Throws
@@ -82,6 +84,7 @@
 | Perception (WIS) | +2 | Fighter *(PHB p. 91)* |
 | Stealth (DEX) | +3 | Human Skillful *(p. 194)* |
 | Survival (WIS) | +2 | Fighter *(PHB p. 91)* |
+| Animal Handling (WIS) | +2 | Battle Master *(Student of War)* |
 
 ### Languages
 - Common
@@ -93,6 +96,7 @@
 ### Tool Proficiencies
 - Gaming set
 - Land vehicles
+- Brewer's Supplies *(Battle Master - Student of War)*
 
 ### Armor Proficiencies
 - All armor
@@ -148,7 +152,10 @@ You gain one **Origin Feat** at 1st level.
 #### Second Wind *(PHB p. 91)*
 As a **Bonus Action**, heal **1d10 + Fighter level** HP. You have **2 uses**.
 - Regain **1 use** on Short Rest, **all uses** on Long Rest
-- At Level 2: Heal 1d10 + 2 HP per use
+- At Level 3: Heal 1d10 + 3 HP per use
+
+#### Tactical Mind *(PHB p. 91)* — Level 2
+When you fail an ability check, you can expend a use of **Second Wind** to roll 1d10 and add it to the check, potentially turning failure into success. If the check still fails, the Second Wind use isn't expended.
 
 #### Action Surge *(PHB p. 92)* — Level 2
 On your turn, take one additional **Action**. Usable **once per Short or Long Rest**.
@@ -163,16 +170,23 @@ When you roll a **1 or 2** on a damage die for an attack with a melee weapon hel
 
 ### Subclass: Battle Master *(PHB pp. 93–95)*
 
-> **Not yet active** — These features unlock at Level 3+. Listed here for planning.
-
 #### Combat Superiority (Level 3)
-- **4 Superiority Dice** (d8s) fuel maneuvers; regain on Short/Long Rest
-- Know **3 maneuvers** at level 3
-- **Maneuver Save DC** = 8 + Proficiency + STR modifier
+- **4 Superiority Dice** (d8s) — expend to fuel maneuvers; regain all on Short/Long Rest
+- **Maneuver Save DC** = 13 (8 + 2 Prof + 3 STR)
 
-#### Student of War (Level 3) — Proficiency with one artisan's tool
+#### Maneuvers Known
 
-#### Know Your Enemy (Level 7) — Bonus Action to compare two characteristics with a creature
+**Goading Attack** — When you hit, add 1d8 to damage. Target must succeed on a WIS save (DC 13) or have Disadvantage on attacks against anyone but you until the end of your next turn.
+
+**Lunging Attack** — When you make a melee attack, you can expend one Superiority Die to increase your reach by 5 ft. If you hit, add 1d8 to damage.
+
+**Riposte** — When a creature misses you with a melee attack, you can use your Reaction to make a melee attack against them. If you hit, add 1d8 to damage.
+
+#### Student of War (Level 3)
+- **Tool Proficiency:** Brewer's Supplies
+- **Skill Proficiency:** Animal Handling
+
+#### Know Your Enemy (Level 7) — Bonus Action to detect a creature's Resistances, Immunities, and Vulnerabilities
 
 #### Improved Combat Superiority (Level 10) — Superiority Dice become d10s
 
@@ -271,10 +285,18 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 - **Range:** 20/60 ft (thrown)
 
 ### Bonus Action Options
-- **Second Wind:** Heal 1d10 + 2 HP (2 uses; regain 1 on Short, all on Long Rest)
+- **Second Wind:** Heal 1d10 + 3 HP (2 uses; regain 1 on Short, all on Long Rest)
 
 ### Action Options
 - **Action Surge:** Take one additional Action (1/Short or Long Rest)
+
+### Reaction Options
+- **Riposte:** When enemy misses you → melee attack + 1d8 damage
+
+### Maneuvers (Superiority Die: d8, DC 13)
+- **Goading Attack:** On hit, +1d8 damage. Target has Disadvantage attacking others (WIS save negates)
+- **Lunging Attack:** +5 ft reach for one attack, +1d8 damage
+- **Riposte:** Reaction when missed → attack + 1d8 damage
 
 ---
 
@@ -284,8 +306,9 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 |----------|------|------------|-----------|
 | Second Wind | 2 | Regain 1 | Regain all |
 | Action Surge | 1 | ✓ Regain | ✓ Regain |
+| Superiority Dice | 4 | ✓ Regain all | ✓ Regain all |
 | Heroic Inspiration | 1 | — | ✓ Gain |
-| Hit Dice | 2 | — | Regain half (min 1) |
+| Hit Dice | 3 | — | Regain half (min 1) |
 
 ---
 

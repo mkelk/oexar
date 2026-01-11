@@ -1,5 +1,42 @@
 # Øxar Character Log
 
+## 2026-01-11 (Session 2)
+
+### Origin Feat Correction & Level Up to 3
+
+#### Origin Feat Fix
+Discovered that **Great Weapon Master is NOT an Origin Feat** — it's a General Feat requiring level 4+. Origin Feats are a specific list of 10 feats (Alert, Crafter, Healer, Lucky, Magic Initiate, Musician, Savage Attacker, Skilled, Tavern Brawler, Tough).
+
+- **Replaced GWM with Tough** as the Human Versatile Origin Feat
+- Tough grants +2 HP per level (retroactive)
+- Removed +2 GWM damage from Greataxe attacks (now 1d12+3 instead of 1d12+5)
+- Moved GWM to Planned Features (Level 4)
+
+#### Level Up: 2 → 3
+- **HP:** 37 (Level 1: 10+3, Level 2: 6+3, Level 3: 6+3, Tough: +6)
+- **Hit Dice:** 3d10
+- **Second Wind:** Now heals 1d10+3
+
+#### Battle Master Subclass Activated
+- **Combat Superiority:** 4 Superiority Dice (d8), DC 13
+- **Maneuvers Chosen:**
+  - Goading Attack (taunt/control)
+  - Lunging Attack (+5 ft reach)
+  - Riposte (reaction counterattack)
+- **Student of War:** Brewer's Supplies, Animal Handling
+
+#### Added Missing Feature
+- **Tactical Mind** (Level 2) — Expend Second Wind use to add 1d10 to a failed ability check
+
+#### Reorganization
+- Moved planned feats (GWM, Sentinel) to new "Planned Features" section at end of document
+- Added Maneuvers and Reaction Options to Quick Reference
+
+#### Remaining TODO
+- **Additional Language** — Still needs to be chosen
+
+---
+
 ## 2026-01-11
 
 ### Character Sheet Validation & Corrections
