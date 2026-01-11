@@ -198,26 +198,6 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 
 ---
 
-### Great Weapon Master *(PHB p. 201)* — Planned for Level 4
-
-**Prerequisite:** Strength 13+, Level 4+
-
-- **+1 Strength** (to 18, modifier becomes +4)
-- **Heavy Weapon Mastery:** Add Proficiency Bonus to damage with Heavy weapons
-- **Hew:** Bonus Action attack after crit or reducing creature to 0 HP
-
----
-
-### Sentinel *(PHB p. 206)* — Planned for Level 8
-
-**Prerequisite:** Strength or Dexterity 13+
-
-- **Opportunity Attack** reduces target's speed to **0** for the turn
-- Creatures provoke Opportunity Attacks even if they **Disengage**
-- **Reaction** melee attack when a creature within 5 ft attacks someone other than you
-
----
-
 ## Equipment *(PHB pp. 213–222)*
 
 ### Weapons *(PHB pp. 213–215)*
@@ -311,8 +291,30 @@ Once per turn when you hit with a weapon, you can **reroll the weapon's damage d
 
 ## Character Summary
 
-Øxar is a frontline fighter specializing in heavy two-handed weapons. He excels at dealing massive damage with Great Weapon Master and can heal himself once per rest. His background as a soldier and former thrall in the Stormlands makes him both brawler and strategist.
+Øxar is a frontline fighter specializing in heavy two-handed weapons. He excels at staying in the fight with extra HP from Tough and can heal himself with Second Wind. His background as a soldier and former thrall in the Stormlands makes him both brawler and strategist.
 
 ---
 
 *This sheet summarizes Øxar's unique features, feats, and abilities for quick reference in play. As Øxar levels, new maneuvers, subclass features, and feats will be added.*
+
+---
+
+## Planned Features
+
+### Level 4: Great Weapon Master *(PHB p. 201)*
+
+**Prerequisite:** Strength 13+, Level 4+
+
+- **+1 Strength** (to 18, modifier becomes +4)
+- **Heavy Weapon Mastery:** Add Proficiency Bonus to damage with Heavy weapons
+- **Hew:** Bonus Action attack after crit or reducing creature to 0 HP
+
+---
+
+### Level 8: Sentinel *(PHB p. 206)*
+
+**Prerequisite:** Strength or Dexterity 13+
+
+- **Opportunity Attack** reduces target's speed to **0** for the turn
+- Creatures provoke Opportunity Attacks even if they **Disengage**
+- **Reaction** melee attack when a creature within 5 ft attacks someone other than you
