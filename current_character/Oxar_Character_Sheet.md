@@ -1,363 +1,169 @@
-# Øxar - Character Sheet
-
-*Last Updated: 2026-01-11 (Level 3 - Battle Master)*
+# Øxar - Level 3 Battle Master
 
 ---
 
-## Quick Summary
+## COMBAT
 
-| | |
-|---|---|
-| **AC** 16 | **HP** 37 |
-| **Speed** 30 ft | **Initiative** +1 |
-| **Prof Bonus** +2 | **Passive Perception** 12 |
+| AC | HP | Speed | Init | Prof |
+|:--:|:--:|:-----:|:----:|:----:|
+| 16 | 37 | 30 ft | +1 | +2 |
 
-| Saves | |
-|-------|---|
-| **STR** +5 | **CON** +5 |
-
-| Greataxe | +5 to hit, 1d12+3 slashing (1-2 = 3) |
-|----------|------------------------------------------|
-| Cleave | Second attack vs. adjacent creature (1d12 only) |
-
----
-
-## Session Tracker
+| Saves | STR +5 | CON +5 |
+|-------|:------:|:------:|
 
 **Current HP:** _____ / 37
 
 **Death Saves:** Success ○ ○ ○ | Failure ○ ○ ○
 
-| Resource | Track | Recovery |
-|----------|-------|----------|
-| **Hit Dice** (d10+3) | ○ ○ ○ | Long Rest (regain half) |
-| **Second Wind** (1d10+3 HP) | ○ ○ | 1/Short, all/Long |
-| **Action Surge** | ○ | Short/Long |
-| **Superiority Dice** (d8) | ○ ○ ○ ○ | Short/Long |
-| **Heroic Inspiration** | ○ | Long Rest |
+---
+
+## ATTACKS
+
+| Weapon | Hit | Damage | Notes |
+|--------|:---:|--------|-------|
+| **Greataxe** | +5 | 1d12+3 | 1-2→3, Cleave |
+| **Handaxe** | +5 | 1d6+3 | Thrown 20/60, Vex |
+
+**Cleave:** On hit → free attack vs. adjacent creature (1d12 only, no mod)
+**Vex:** On hit → Advantage on next attack vs. same target
+**Savage Attacker:** 1/turn, reroll damage dice, take either
 
 ---
 
-## Resources Reference
+## RESOURCES
 
-| Resources | Uses | Recovery |
-|-----------|------|----------|
-| Second Wind (1d10+3 HP) | 2 | 1/Short, all/Long |
-| Tactical Mind (+1d10 to check) | — | Uses Second Wind |
-| Action Surge (+1 Action) | 1 | Short/Long |
-| Superiority Dice (d8) | 4 | Short/Long |
-| Heroic Inspiration (Adv) | 1 | Long Rest |
-| Savage Attacker (reroll dmg) | 1/turn | — |
+| Resource | Track | Reset |
+|----------|:-----:|-------|
+| Hit Dice (1d10+3 heal) | ○ ○ ○ | Long (half) |
+| Second Wind (1d10+3 heal) | ○ ○ | Short: 1, Long: all |
+| Action Surge (+1 Action) | ○ | Short/Long |
+| Superiority Dice (d8) | ○ ○ ○ ○ | Short/Long |
+| Heroic Inspiration (Adv) | ○ | Long |
 
 ---
 
-## Basic Information
+## TURN OPTIONS
 
-| Attribute | Value |
-|-----------|-------|
+### Action
+- **Attack** (1 attack, or 2 with Action Surge)
+- **Action Surge** → Take another Action this turn
+
+### Bonus Action
+- **Second Wind** → Heal 1d10+3
+- **Tactical Mind** → Failed ability check? Spend Second Wind, add 1d10 (if still fails, not expended)
+
+### Reaction
+- **Riposte** → Enemy misses you? Attack back +1d8 damage
+- **Opportunity Attack** → Enemy leaves your reach
+
+### Free (1/turn each)
+- **Cleave** → After Greataxe hit
+- **Savage Attacker** → Reroll damage
+
+---
+
+## MANEUVERS (DC 13, cost 1 Superiority Die)
+
+| Maneuver | Trigger | Effect |
+|----------|---------|--------|
+| **Goading** | On hit | +1d8 dmg, target has Disadv attacking others (WIS neg) |
+| **Lunging** | On attack | +5 ft reach, +1d8 dmg |
+| **Riposte** | Enemy misses | Reaction attack, +1d8 dmg |
+
+---
+
+## SKILLS
+
+| Skill | Mod | | Skill | Mod |
+|-------|:---:|-|-------|:---:|
+| Athletics | +5 | | Stealth | +3 (Disadv) |
+| Intimidation | +1 | | Survival | +2 |
+| Perception | +2 | | Animal Handling | +2 |
+
+**Passive Perception:** 12
+
+**Tools:** Gaming set, Land vehicles, Brewer's Supplies
+
+**Languages:** Common, *(choose one more)*
+
+---
+
+# REFERENCE
+
+---
+
+## Character Info
+
+| | |
+|---|---|
 | **Name** | Øxar |
 | **Species** | Human |
-| **Class** | Fighter (Battle Master from Level 3) |
+| **Class** | Fighter 3 (Battle Master) |
 | **Background** | Soldier |
 | **Alignment** | Chaotic Good |
-| **Level** | 3 |
 
 ---
 
-## Ability Scores *(PHB p. 36)*
+## Ability Scores
 
-| Ability | Base | Bonus | Score | Modifier |
-|---------|------|-------|-------|----------|
-| **STR** | 15 | +2 (Soldier) | 17 | +3 |
-| **DEX** | 12 | — | 12 | +1 |
-| **CON** | 15 | +1 (Soldier) | 16 | +3 |
-| **INT** | 10 | — | 10 | +0 |
-| **WIS** | 11 | — | 11 | +0 |
-| **CHA** | 8 | — | 8 | -1 |
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 17 | 12 | 16 | 10 | 11 | 8 |
+| +3 | +1 | +3 | +0 | +0 | -1 |
 
 ---
 
-## Combat Stats *(PHB pp. 361–365)*
+## Features
 
-| Stat | Value |
-|------|-------|
-| **Armor Class** | 16 (Chain Mail) |
-| **Initiative** | +1 (Dex modifier) |
-| **Speed** | 30 ft |
-| **Hit Points** | 37 (Level 1: 10+3, Level 2: 6+3, Level 3: 6+3, Tough: +6) |
-| **Hit Dice** | 3d10 |
-| **Proficiency Bonus** | +2 |
+**Great Weapon Fighting** — Damage rolls of 1-2 become 3 (two-handed weapons)
 
-### Saving Throws
-- **STR** +5 (proficient)
-- **CON** +5 (proficient)
+**Tough** — +2 HP per level (+6 at level 3)
+
+**Heroic Inspiration** — Gain after Long Rest; spend for Advantage on any d20
+
+**Tactical Mind** — Spend Second Wind on failed ability check → +1d10 (refunded if still fails)
 
 ---
 
-## Skills & Proficiencies
+## Equipment
 
-### Proficient Skills
-| Skill | Bonus | Source |
-|-------|-------|--------|
-| Athletics (STR) | +5 | Soldier |
-| Intimidation (CHA) | +1 | Soldier |
-| Perception (WIS) | +2 | Fighter *(PHB p. 91)* |
-| Stealth (DEX) | +3 | Human Skillful *(p. 194)* |
-| Survival (WIS) | +2 | Fighter *(PHB p. 91)* |
-| Animal Handling (WIS) | +2 | Battle Master *(Student of War)* |
+### Weapons
+- **Greataxe** — 1d12+3, Heavy, Two-Handed, Cleave mastery
+- **Handaxes (2)** — 1d6+3, Light, Thrown 20/60, Vex mastery
+- **Greatsword** *(mastery known, not owned)* — 2d6+3, Graze mastery
 
-### Languages
-- Common
+### Armor
+- **Chain Mail** — AC 16, Stealth Disadvantage
 
-> **TODO: Choose Additional Language**
->
-> Humans know Common plus one additional language *(PHB p. 170)*.
-
-### Tool Proficiencies
-- Gaming set
-- Land vehicles
-- Brewer's Supplies *(Battle Master - Student of War)*
-
-### Armor Proficiencies
-- All armor
-- Shields
-
-### Weapon Proficiencies
-- Simple weapons
-- Martial weapons
+### Gear (Dungeoneer's Pack)
+Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, Rations (10 days), Waterskin
 
 ---
 
-## Features & Traits
-
-### Species: Human *(PHB p. 170)*
-
-#### Resourceful
-You gain **Heroic Inspiration** *(PHB p. 38)* after each Long Rest.
-- Heroic Inspiration lets you roll with **Advantage** on a d20 Test (attack roll, saving throw, or ability check).
-
-#### Skillful
-You gain proficiency in one extra skill of your choice.
-- Øxar has chosen **Stealth**.
-
-#### Versatile
-You gain one **Origin Feat** at 1st level.
-- Øxar has chosen **Tough**.
-
----
-
-### Background: Soldier *(PHB p. 179)*
-
-- **Ability Score Increases:** +2 Strength, +1 Constitution
-- **Skill Proficiencies:** Athletics, Intimidation
-- **Tool Proficiencies:** One gaming set, vehicles (land)
-- **Starting Equipment:** Military insignia, uniform, etc.
-
----
-
-### Class: Fighter *(PHB pp. 91–97)*
-
-#### Hit Dice
-- d10 per Fighter level
-
-#### Saving Throws
-- Strength, Constitution
-
-#### Armor Proficiencies
-- All armor, shields
-
-#### Weapon Proficiencies
-- Simple and martial weapons
-
-#### Second Wind *(PHB p. 91)*
-As a **Bonus Action**, heal **1d10 + Fighter level** HP. You have **2 uses**.
-- Regain **1 use** on Short Rest, **all uses** on Long Rest
-- At Level 3: Heal 1d10 + 3 HP per use
-
-#### Tactical Mind *(PHB p. 91)* — Level 2
-When you fail an ability check, you can expend a use of **Second Wind** to roll 1d10 and add it to the check, potentially turning failure into success. If the check still fails, the Second Wind use isn't expended.
-
-#### Action Surge *(PHB p. 92)* — Level 2
-On your turn, take one additional **Action**. Usable **once per Short or Long Rest**.
-
----
-
-### Fighting Style: Great Weapon Fighting *(PHB p. 95)*
-
-When you roll damage for an attack with a melee weapon held in **two hands**, you can treat any **1 or 2** on a damage die as a **3**. The weapon must have the Two-Handed or Versatile property.
-
----
-
-### Subclass: Battle Master *(PHB pp. 93–95)*
-
-#### Combat Superiority (Level 3)
-- **4 Superiority Dice** (d8s) — expend to fuel maneuvers; regain all on Short/Long Rest
-- **Maneuver Save DC** = 13 (8 + 2 Prof + 3 STR)
-
-#### Maneuvers Known
-
-**Goading Attack** — When you hit, add 1d8 to damage. Target must succeed on a WIS save (DC 13) or have Disadvantage on attacks against anyone but you until the end of your next turn.
-
-**Lunging Attack** — When you make a melee attack, you can expend one Superiority Die to increase your reach by 5 ft. If you hit, add 1d8 to damage.
-
-**Riposte** — When a creature misses you with a melee attack, you can use your Reaction to make a melee attack against them. If you hit, add 1d8 to damage.
-
-#### Student of War (Level 3)
-- **Tool Proficiency:** Brewer's Supplies
-- **Skill Proficiency:** Animal Handling
-
-#### Know Your Enemy (Level 7) — Bonus Action to detect a creature's Resistances, Immunities, and Vulnerabilities
-
-#### Improved Combat Superiority (Level 10) — Superiority Dice become d10s
-
----
-
-## Feats
-
-### Tough *(PHB p. 207)* — Origin Feat
-
-**Prerequisite:** None
-
-Your Hit Point Maximum increases by an amount equal to **twice your character level** when you gain this feat. Whenever you gain a level thereafter, your Hit Point Maximum increases by an additional **2 Hit Points**.
-
-- At Level 2: +4 HP
-
----
-
-### Savage Attacker *(PHB p. 205)* — Origin Feat (Soldier Background)
-
-**Prerequisite:** None
-
-Once per turn when you hit with a weapon, you can **reroll the weapon's damage dice** and use either roll.
-
----
-
-## Equipment *(PHB pp. 213–222)*
-
-### Weapons *(PHB pp. 213–215)*
-
-#### Greataxe *(p. 215)* — Primary
-| Stat | Value |
-|------|-------|
-| Attack Bonus | +5 (STR +3, Prof +2) |
-| Damage | 1d12 + 3 slashing |
-| Properties | Heavy, Two-Handed |
-| Mastery | **Cleave** *(p. 214)* — on hit, make another attack vs. a second creature within 5 ft of the first (weapon damage only, no ability mod). 1/turn |
-| GWF | Treat 1s and 2s as 3s on damage die |
-
-#### Handaxes (x2) *(p. 215)*
-| Stat | Value |
-|------|-------|
-| Attack Bonus | +5 |
-| Damage | 1d6 + 3 slashing |
-| Properties | Light, Thrown (20/60 ft) |
-| Mastery | **Vex** *(p. 214)* — Advantage on next attack vs. same creature |
-
-#### Greatsword *(p. 215)* — Mastery Known (not currently owned)
-| Stat | Value |
-|------|-------|
-| Attack Bonus | +5 (STR +3, Prof +2) |
-| Damage | 2d6 + 3 slashing |
-| Properties | Heavy, Two-Handed |
-| Mastery | **Graze** *(p. 214)* — on a miss, still deal damage equal to STR mod (+3) |
-| GWF | Treat 1s and 2s as 3s on each damage die |
-
-> *Note: 2d6 averages higher than 1d12 (7 vs 6.5) and benefits more from Great Weapon Fighting (two dice that can be bumped to 3).*
-
-### Armor *(PHB pp. 218–219)*
-
-#### Chain Mail *(p. 219)*
-| Stat | Value |
-|------|-------|
-| Type | Heavy Armor |
-| AC | 16 |
-| Requirements | STR 13 |
-| Notes | No Dex bonus, Stealth Disadvantage |
-
-### Adventuring Gear
-
-#### Dungeoneer's Pack
-- Backpack
-- Crowbar
-- Hammer
-- Pitons (10)
-- Rope (50 ft)
-- Torches (10)
-- Tinderbox
-- Rations (10 days)
-- Waterskin
-
----
-
-## Quick Reference: Attack Options
-
-### Greataxe Attack
-- **To Hit:** +5
-- **Damage:** 1d12 + 3 slashing
-- **GWF:** Treat 1s and 2s as 3s
-- **Cleave Mastery:** On hit, make a second attack (+5) vs. creature within 5 ft of the first; deals 1d12 only (no STR mod). 1/turn
-
-**Typical Attack:** +5 to hit, 1d12 + 3 slashing (1-2 = 3), plus Cleave
-
-### Handaxe (Melee or Thrown)
-- **To Hit:** +5
-- **Damage:** 1d6 + 3 slashing
-- **Range:** 20/60 ft (thrown)
-
-### Bonus Action Options
-- **Second Wind:** Heal 1d10 + 3 HP (2 uses; regain 1 on Short, all on Long Rest)
-
-### Action Options
-- **Action Surge:** Take one additional Action (1/Short or Long Rest)
-
-### Reaction Options
-- **Riposte:** When enemy misses you → melee attack + 1d8 damage
-
-### Maneuvers (Superiority Die: d8, DC 13)
-- **Goading Attack:** On hit, +1d8 damage. Target has Disadvantage attacking others (WIS save negates)
-- **Lunging Attack:** +5 ft reach for one attack, +1d8 damage
-- **Riposte:** Reaction when missed → attack + 1d8 damage
-
----
-
-## Resources Per Rest
-
-| Resource | Uses | Short Rest | Long Rest |
-|----------|------|------------|-----------|
-| Second Wind | 2 | Regain 1 | Regain all |
-| Action Surge | 1 | ✓ Regain | ✓ Regain |
-| Superiority Dice | 4 | ✓ Regain all | ✓ Regain all |
-| Heroic Inspiration | 1 | — | ✓ Gain |
-| Hit Dice | 3 | — | Regain half (min 1) |
-
----
-
-## Character Summary
-
-Øxar is a frontline fighter specializing in heavy two-handed weapons. He excels at staying in the fight with extra HP from Tough and can heal himself with Second Wind. His background as a soldier and former thrall in the Stormlands makes him both brawler and strategist.
-
----
-
-*This sheet summarizes Øxar's unique features, feats, and abilities for quick reference in play. As Øxar levels, new maneuvers, subclass features, and feats will be added.*
+## HP Calculation
+
+| Level | HP |
+|-------|-----|
+| 1 | 10 + 3 (CON) = 13 |
+| 2 | 6 + 3 = 9 |
+| 3 | 6 + 3 = 9 |
+| Tough | +6 |
+| **Total** | **37** |
 
 ---
 
 ## Planned Features
 
-### Level 4: Great Weapon Master *(PHB p. 201)*
+### Level 4: Great Weapon Master
+- +1 STR (18, +4 mod)
+- +Prof Bonus damage with Heavy weapons
+- Hew: Bonus Action attack after crit or kill
 
-**Prerequisite:** Strength 13+, Level 4+
-
-- **+1 Strength** (to 18, modifier becomes +4)
-- **Heavy Weapon Mastery:** Add Proficiency Bonus to damage with Heavy weapons
-- **Hew:** Bonus Action attack after crit or reducing creature to 0 HP
+### Level 8: Sentinel
+- Opportunity Attack → target's speed becomes 0
+- Disengage doesn't prevent your Opportunity Attacks
+- Reaction attack when adjacent creature attacks someone else
 
 ---
 
-### Level 8: Sentinel *(PHB p. 206)*
-
-**Prerequisite:** Strength or Dexterity 13+
-
-- **Opportunity Attack** reduces target's speed to **0** for the turn
-- Creatures provoke Opportunity Attacks even if they **Disengage**
-- **Reaction** melee attack when a creature within 5 ft attacks someone other than you
+*Last Updated: 2026-01-11*
