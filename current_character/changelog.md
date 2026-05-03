@@ -1,5 +1,37 @@
 # Øxar Character Log
 
+## 2026-05-03
+
+### Level Up: 3 → 4
+
+#### Ability Score Improvement: Great Weapon Master Feat *(PHB 2024 p. 201)*
+- **+1 STR**: 17 → 18 (+3 → +4 mod)
+- **Heavy Weapon Mastery**: 1/turn, +PB (+2) damage on hit with a Heavy weapon
+- **Hew** (Bonus Action): After a crit or reducing a creature to 0 HP with a Heavy weapon, make one attack with that weapon
+
+#### HP: 37 → 48
+- Level 4: 6 (fixed d10) + 3 (CON) = 9
+- Tough: +2 (now +8 total)
+
+#### Hit Dice: 3d10 → 4d10
+
+#### Derived Updates from STR 17 → 18
+- STR save: +5 → +6
+- Athletics: +5 → +6
+- Greataxe: +5/1d12+3 → +6/1d12+4 (1d12+6 when HWM triggers)
+- Handaxe: +5/1d6+3 → +6/1d6+4
+- Greatsword (theoretical): 2d6+3 → 2d6+4
+- Second Wind: 1d10+3 → 1d10+4 (heals 1d10 + Fighter level)
+- **Second Wind uses: 2 → 3** (Fighter table bump at L4; next at L10)
+
+#### Unchanged
+- AC 16, Initiative +1, Proficiency Bonus +2 (next bump at L5)
+- Superiority Dice (4), Maneuvers (Goading, Lunging, Riposte), DC 13
+- Action Surge (1 use)
+- Removed L4 entry from Planned Features (now active); Sentinel still planned for L8
+
+---
+
 ## 2026-01-11 (Session 2)
 
 ### Origin Feat Correction & Level Up to 3
