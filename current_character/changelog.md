@@ -1,5 +1,17 @@
 # Øxar Character Log
 
+## 2026-05-03 (later)
+
+### Acquired: Rune Stone
+A single stone bearing one carved rune that offers two effect options, each with its own recharge.
+
+- **Shield effect** — Reaction; casts the *Shield* spell (+5 AC until start of next turn, negates *Magic Missile*). Recharges on Short Rest.
+- **Earth's Grasp effect** — On next hit with a weapon attack, target makes a DC 13 STR save or cannot move next round and counts as Restrained. Recharges on Long Rest.
+
+Added to RESOURCES (tracking circles), Reaction options (Shield), and a new "Magic Items" section under Equipment.
+
+---
+
 ## 2026-05-03
 
 ### Level Up: 3 → 4

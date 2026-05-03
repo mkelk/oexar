@@ -40,6 +40,8 @@
 | Action Surge (+1 Action) | ○ | Short/Long |
 | Superiority Dice (d8) | ○ ○ ○ ○ | Short/Long |
 | Heroic Inspiration (Adv) | ○ | Long |
+| Rune Stone — Shield effect (Reaction, +5 AC) | ○ | Short |
+| Rune Stone — Earth's Grasp (next weapon hit) | ○ | Long |
 
 ---
 
@@ -57,6 +59,7 @@
 ### Reaction
 - **Riposte** → Enemy misses you? Attack back +1d8 damage
 - **Opportunity Attack** → Enemy leaves your reach
+- **Rune Stone (Shield effect)** → +5 AC until start of next turn (vs. attack or Magic Missile)
 
 ### Free (1/turn each)
 - **Cleave** → After Greataxe hit
@@ -145,6 +148,13 @@
 
 ### Gear (Dungeoneer's Pack)
 Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, Rations (10 days), Waterskin
+
+### Magic Items
+
+**Rune Stone** — Single stone bearing one carved rune. The rune offers two possible effects; each effect has its own recharge.
+
+- **Shield effect** *(Reaction; recharge: Short Rest)* — Casts the *Shield* spell. +5 AC until the start of your next turn (applies to the triggering attack); negates *Magic Missile*.
+- **Earth's Grasp effect** *(recharge: Long Rest)* — On your next hit with a weapon attack, target makes a **DC 13 STR save** or cannot move on its next turn and counts as **Restrained**.
 
 ---
 
