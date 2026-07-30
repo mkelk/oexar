@@ -21,12 +21,12 @@
 
 | Weapon | Hit | Damage | Notes |
 |--------|:---:|--------|-------|
-| **Greataxe** | +6 | 1d12+4 | 1-2→3, Cleave, +2 dmg w/ HWM (1/normal attack) |
+| **Greataxe** | +6 | 1d12+4 | 1-2→3, Cleave, +2 dmg w/ HWM (every Attack-action hit) |
 | **Handaxe** | +6 | 1d6+4 | Thrown 20/60, Vex |
 
 **Cleave:** On hit → free attack vs. adjacent creature (1d12 only, no mod)
 **Vex:** On hit → Advantage on next attack vs. same target
-**Heavy Weapon Mastery (GWM):** 1/normal attack, +2 damage on hit with Heavy weapon
+**Heavy Weapon Mastery (GWM):** +2 damage on *every* hit with a Heavy weapon as part of the Attack action (not Hew or reactions; Cleave hit = DM call, RAW ambiguous)
 **Savage Attacker:** 1/turn, reroll damage dice, take either
 
 ---
@@ -55,6 +55,7 @@
 - **Second Wind** → Heal 1d10+4
 - **Tactical Mind** → Failed ability check? Spend Second Wind, add 1d10 (if still fails, not expended)
 - **Hew (GWM)** → After crit or kill with Heavy weapon, attack again with that weapon
+- **Lunging Attack (1 die)** → Dash; move ≥5 ft straight before a melee hit (Attack action) → +1d8 dmg
 
 ### Reaction
 - **Riposte** → Enemy misses you? Attack back +1d8 damage
@@ -63,17 +64,20 @@
 
 ### Free (1/turn each)
 - **Cleave** → After Greataxe hit
-- **Heavy Weapon Mastery** → +2 dmg on Heavy weapon hit
-- **Savage Attacker** → Reroll damage
+- **Savage Attacker** → Roll damage dice twice, take either
+
+*(Heavy Weapon Mastery is not 1/turn — it's every Attack-action hit, see Attacks)*
 
 ---
 
-## MANEUVERS (DC 13, cost 1 Superiority Die)
+## MANEUVERS (DC 14, cost 1 Superiority Die, max 1 maneuver per attack)
+
+**Superiority Dice:** ○ ○ ○ ○ *(d8, regain all on Short/Long Rest)*
 
 | Maneuver | Trigger | Effect |
 |----------|---------|--------|
 | **Goading** | On hit | +1d8 dmg, target has Disadv attacking others (WIS neg) |
-| **Lunging** | On attack | +5 ft reach, +1d8 dmg |
+| **Lunging** | Bonus Action | Dash; move ≥5 ft straight before melee hit (Attack action) → +1d8 dmg |
 | **Riposte** | Enemy misses | Reaction attack, +1d8 dmg |
 
 ---
@@ -88,9 +92,9 @@
 
 **Passive Perception:** 12
 
-**Tools:** Gaming set, Land vehicles, Brewer's Supplies
+**Tools:** Gaming set, Brewer's Supplies
 
-**Languages:** Common, *(choose one more)*
+**Languages:** Common, *(2 open — every 2024 PC knows Common + two standard languages)*
 
 ---
 
@@ -129,9 +133,9 @@
 
 **Tactical Mind** — Spend Second Wind on failed ability check → +1d10 (refunded if still fails)
 
-**Great Weapon Master** *(L4 feat, PHB 2024 p. 204)*
+**Great Weapon Master** *(L4 feat, PHB 2024 p. 201)*
 - +1 STR (applied)
-- **Heavy Weapon Mastery** — 1/normal attack, +PB damage on hit with Heavy weapon
+- **Heavy Weapon Mastery** — +PB damage on *each* hit with a Heavy weapon as part of the Attack action
 - **Hew** — Bonus Action attack with Heavy weapon after crit or reducing creature to 0 HP
 
 ---
@@ -142,6 +146,7 @@
 - **Greataxe** — 1d12+4, Heavy, Two-Handed, Cleave mastery
 - **Handaxes (2)** — 1d6+4, Light, Thrown 20/60, Vex mastery
 - **Greatsword** *(mastery known, not owned)* — 2d6+4, Graze mastery
+- **⚠️ Open mastery slot** — Fighter L4 grants a 4th Weapon Mastery *(not yet chosen; may also swap one mastery choice each Long Rest)*
 
 ### Armor
 - **Chain Mail** — AC 16, Stealth Disadvantage
@@ -180,4 +185,4 @@ Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, R
 
 ---
 
-*Last Updated: 2026-05-03*
+*Last Updated: 2026-07-30*

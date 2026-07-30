@@ -1,5 +1,36 @@
 # Øxar Character Log
 
+## 2026-07-30
+
+### Full 2024-Rules Sanity Check (web-verified)
+
+#### Fixed
+- **Maneuver save DC: 13 → 14** — DC = 8 + STR mod (+4) + PB (+2). Was never bumped when GWM raised STR 17 → 18 at L4.
+- **Lunging Attack corrected to 2024 version** — Old sheet had the 2014 "+5 ft reach" version. 2024: Bonus Action, expend a Superiority Die and take the Dash action; if you move ≥5 ft in a straight line immediately before hitting with a melee attack as part of the Attack action, add the die to damage. Moved into Bonus Action turn options.
+- **GWM Heavy Weapon Mastery is not 1/turn** — Applies to *every* hit with a Heavy weapon made as part of the Attack action (excludes Hew, opportunity attacks, Riposte). Whether the Cleave follow-up hit qualifies is RAW-ambiguous (Nick's mastery says "as part of the Attack action" explicitly; Cleave's doesn't) — marked as DM call. Removed from "Free (1/turn each)".
+- **Removed Land Vehicles proficiency** — 2024 Soldier grants only Athletics, Intimidation, and one Gaming Set (vehicles were the 2014 version).
+- **Languages: 2 open slots** — 2024 rule: every PC knows Common plus two standard languages (species/backgrounds no longer grant them). Sheet previously said "choose one more".
+
+#### Added
+- **4th Weapon Mastery slot (Fighter L4)** — Weapon Mastery scales 3 (L1) → 4 (L4) → 5 (L10) → 6 (L16). Marked as an open slot; one mastery choice may also be swapped each Long Rest.
+- **Superiority Dice tracker in MANEUVERS section** — duplicate of the RESOURCES tracker, placed next to where dice are spent.
+- **"Max 1 maneuver per attack"** noted in MANEUVERS header (verbatim Combat Superiority rule).
+
+#### Verification method
+All rules re-verified 2026-07-30 against verbatim 2024 text (Battle Master Combat Superiority + maneuvers, Great Weapon Master feat, Fighter class table & Weapon Mastery feature) — DC formula, Lunging Attack wording, HWM having no per-turn limit, L4 = 4 masteries / 3 Second Wind uses all confirmed word-for-word.
+
+#### Verified correct
+HP 48, AC 16, saves STR +6 / CON +5, attacks +6 (1d12+4 / 1d6+4), Second Wind 3 uses @ 1d10+4, Action Surge 1, Superiority Dice 4×d8 (Short/Long Rest), 3 maneuvers known (2 more at L7), PB +2, Origin feats (Savage Attacker + Tough), point-buy-legal ability scores, all skill mods, Passive Perception 12.
+
+#### Note
+- The committed PDF predates the L3/L4 updates and is stale — regenerate before printing.
+
+#### Remaining TODO
+- Choose 4th Weapon Mastery
+- Choose 2 languages
+
+---
+
 ## 2026-05-03 (later)
 
 ### Acquired: Rune Stone
