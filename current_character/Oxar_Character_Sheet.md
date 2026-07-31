@@ -64,13 +64,13 @@
 
 ### Free (1/turn each)
 - **Cleave** → After Greataxe hit
-- **Savage Attacker** → Roll damage dice twice, take either
+- **Savage Attacker** → Roll damage dice twice, take either *(PHB p. 201)*
 
 *(Heavy Weapon Mastery is not 1/turn — it's every Attack-action hit, see Attacks)*
 
 ---
 
-## MANEUVERS (DC 14, cost 1 Superiority Die, max 1 maneuver per attack)
+## MANEUVERS (DC 14, cost 1 Superiority Die, max 1 maneuver per attack) — *PHB pp. 93–94*
 
 **Superiority Dice:** ○ ○ ○ ○ *(d8, regain all on Short/Long Rest)*
 
@@ -94,7 +94,7 @@
 
 **Tools:** Gaming set, Brewer's Supplies
 
-**Languages:** Common, *(2 open — every 2024 PC knows Common + two standard languages)*
+**Languages:** Common, *(2 open — every 2024 PC knows Common + two standard languages, PHB p. 37)*
 
 ---
 
@@ -107,9 +107,9 @@
 | | |
 |---|---|
 | **Name** | Øxar |
-| **Species** | Human |
-| **Class** | Fighter 4 (Battle Master) |
-| **Background** | Soldier |
+| **Species** | Human *(PHB p. 194)* |
+| **Class** | Fighter 4 (Battle Master) *(PHB pp. 90, 93)* |
+| **Background** | Soldier *(PHB p. 185)* |
 | **Alignment** | Chaotic Good |
 
 ---
@@ -125,13 +125,13 @@
 
 ## Features
 
-**Great Weapon Fighting** — Damage rolls of 1-2 become 3 (two-handed weapons)
+**Great Weapon Fighting** — Damage rolls of 1-2 become 3 (two-handed weapons) *(PHB p. 209)*
 
-**Tough** — +2 HP per level (+8 at level 4)
+**Tough** — +2 HP per level (+8 at level 4) *(PHB p. 202)*
 
-**Heroic Inspiration** — Gain after Long Rest; spend for Advantage on any d20
+**Heroic Inspiration** — Gain after Long Rest; spend for Advantage on any d20 *(PHB p. 368)*
 
-**Tactical Mind** — Spend Second Wind on failed ability check → +1d10 (refunded if still fails)
+**Tactical Mind** — Spend Second Wind on failed ability check → +1d10 (refunded if still fails) *(PHB p. 91)*
 
 **Great Weapon Master** *(L4 feat, PHB 2024 p. 204)*
 - +1 STR (applied)
@@ -142,14 +142,14 @@
 
 ## Equipment
 
-### Weapons
+### Weapons *(PHB p. 215; mastery properties p. 214)*
 - **Greataxe** — 1d12+4, Heavy, Two-Handed, Cleave mastery
 - **Handaxes (2)** — 1d6+4, Light, Thrown 20/60, Vex mastery
 - **Greatsword** *(mastery known, not owned)* — 2d6+4, Graze mastery
 - **⚠️ Open mastery slot** — Fighter L4 grants a 4th Weapon Mastery *(not yet chosen; may also swap one mastery choice each Long Rest)*
 
 ### Armor
-- **Chain Mail** — AC 16, Stealth Disadvantage
+- **Chain Mail** — AC 16, Stealth Disadvantage *(PHB p. 219)*
 
 ### Gear (Dungeoneer's Pack)
 Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, Rations (10 days), Waterskin
@@ -158,8 +158,8 @@ Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, R
 
 **Rune Stone** — Single stone bearing one carved rune. The rune offers two possible effects; each effect has its own recharge.
 
-- **Shield effect** *(Reaction; recharge: Short Rest)* — Casts the *Shield* spell. +5 AC until the start of your next turn (applies to the triggering attack); negates *Magic Missile*.
-- **Earth's Grasp effect** *(recharge: Long Rest)* — On your next hit with a weapon attack, target makes a **DC 13 STR save** or cannot move on its next turn and counts as **Restrained**.
+- **Shield effect** *(Reaction; recharge: Short Rest)* — Casts the *Shield* spell *(PHB p. 316)*. +5 AC until the start of your next turn (applies to the triggering attack); negates *Magic Missile*.
+- **Earth's Grasp effect** *(recharge: Long Rest)* — On your next hit with a weapon attack, target makes a **DC 13 STR save** or cannot move on its next turn and counts as **Restrained** *(PHB p. 373)*.
 
 ---
 
@@ -178,11 +178,11 @@ Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, R
 
 ## Planned Features
 
-### Level 8: Sentinel
+### Level 8: Sentinel *(PHB p. 207)*
 - Opportunity Attack → target's speed becomes 0
 - Disengage doesn't prevent your Opportunity Attacks
 - Reaction attack when adjacent creature attacks someone else
 
 ---
 
-*Last Updated: 2026-07-30*
+*Last Updated: 2026-07-31*

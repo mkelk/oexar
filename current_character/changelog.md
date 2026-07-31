@@ -18,6 +18,9 @@
 | Savage Attacker / Tough (origin feats) | **p. 201** / **p. 202** |
 | Sentinel (planned L8) | **p. 207** |
 
+#### In-sheet page references added (same day, later)
+Added verified PHB 2024 refs directly to the sheet — only book-verified page numbers used: Human (p. 194), Fighter/Battle Master (pp. 90/93), Soldier (p. 185), GWF (p. 209), Tough (p. 202), Heroic Inspiration (p. 368), Tactical Mind (p. 91), Savage Attacker (p. 201), Maneuvers (pp. 93–94), Languages (p. 37), Weapons (p. 215), Mastery Properties (p. 214), Chain Mail (p. 219), *Shield* spell (p. 316), Restrained condition (p. 373), Sentinel (p. 207). Not referenced (custom item, no official page): the Rune Stone itself.
+
 #### Corrections to previously logged page refs
 The 2025-12-03 refs were partly wrong: GWM is **p. 204** (not 201 — the sheet's original 204 was correct and has been restored after being wrongly "fixed" to 201 on 2026-07-30), Soldier is **p. 185** (not 179), Human is **p. 194** (not 170), Sentinel is **p. 207** (not 206). Battle Master is pp. 93–95 as logged; Fighter starts **p. 90** (not 91).
 
