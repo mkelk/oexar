@@ -1,5 +1,38 @@
 # Øxar Character Log
 
+## 2026-07-31 (later)
+
+### Level Up: 4 → 5
+
+#### New Features *(PHB p. 92)*
+- **Extra Attack** — 2 attacks per Attack action (4 with Action Surge)
+- **Tactical Shift** — Second Wind (Bonus Action) now also moves 15 ft without provoking Opportunity Attacks
+
+*(Ref correction: initially logged as p. 91 by unverified assumption; book data confirms both L5 features are on p. 92.)*
+
+#### Proficiency Bonus +2 → +3 (cascade)
+- Attacks: +6 → +7 (both weapons)
+- **Maneuver save DC: 14 → 15**
+- **GWM Heavy Weapon Mastery: +2 → +3** (normal swing now 1d12+7)
+- Saves: STR +7, CON +6
+- Skills: Athletics +7, Stealth +4 (Disadv), Perception/Survival/Animal Handling +3, Intimidation +2
+- Passive Perception: 12 → 13
+
+#### HP: 48 → 59
+- Level 5: 6 (fixed d10) + 3 (CON) = 9; Tough +2 (now +10 total)
+- Hit Dice: 4d10 → 5d10
+
+#### Other
+- Second Wind heals 1d10+5 (1d10 + Fighter level)
+- Fighting style: **kept Great Weapon Fighting** (swap was available, declined)
+- Unchanged: AC 16, superiority dice (4×d8), 3 maneuvers (next at L7), Second Wind 3 uses, Action Surge 1, Weapon Masteries 4
+- Still open: 4th Weapon Mastery choice, 2 languages
+
+#### Added: FIGHTING TECHNIQUES section
+New best-practice tactics page on the sheet: standard turn, openers, nova turn (with Earth's Grasp priming), reaction priority (Rune Stone Shield vs. Riposte vs. Opportunity Attack), survival tools, and resource pacing.
+
+---
+
 ## 2026-07-31
 
 ### PHB 2024 Page References for the 2026-07-30 Changes (verified against book-extracted data)

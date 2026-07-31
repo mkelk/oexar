@@ -22,7 +22,7 @@
     font-size: 19px; margin: 0 0 6px 0; padding-bottom: 4px;
     border-bottom: 3px double #7a1f1f; color: #7a1f1f;
   }
-  h1:nth-of-type(2) { page-break-before: always; margin-top: 0; }
+  h1:not(:first-of-type) { page-break-before: always; margin-top: 0; }
   h2 {
     font-size: 12px; margin: 7px 0 3px 0; page-break-after: avoid; padding: 2px 6px;
     background: #7a1f1f; color: #fff; border-radius: 3px;
@@ -38,12 +38,13 @@
   li { margin: 1.5px 0; }
   strong { color: #000; }
   em { color: #444; }
+  h2 em { color: #f2dede; }
   /* big tracking circles for pencil marks */
   td, li, p { font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
-<h1>Øxar - Level 4 Battle Master</h1>
+<h1>Øxar - Level 5 Battle Master</h1>
 <hr />
 <h2>COMBAT</h2>
 <table>
@@ -59,10 +60,10 @@
 <tbody>
 <tr>
 <td align="center">16</td>
-<td align="center">48</td>
+<td align="center">59</td>
 <td align="center">30 ft</td>
 <td align="center">+1</td>
-<td align="center">+2</td>
+<td align="center">+3</td>
 </tr>
 </tbody>
 </table>
@@ -70,12 +71,12 @@
 <thead>
 <tr>
 <th>Saves</th>
-<th align="center">STR +6</th>
-<th align="center">CON +5</th>
+<th align="center">STR +7</th>
+<th align="center">CON +6</th>
 </tr>
 </thead>
 </table>
-<p><strong>Current HP:</strong> _____ / 48</p>
+<p><strong>Current HP:</strong> _____ / 59</p>
 <p><strong>Death Saves:</strong> Success ○ ○ ○ | Failure ○ ○ ○</p>
 <hr />
 <h2>ATTACKS</h2>
@@ -91,13 +92,13 @@
 <tbody>
 <tr>
 <td><strong>Greataxe</strong></td>
-<td align="center">+6</td>
+<td align="center">+7</td>
 <td>1d12+4</td>
-<td>1-2→3, Cleave, +2 dmg w/ HWM (every Attack-action hit)</td>
+<td>1-2→3, Cleave, +3 dmg w/ HWM (every Attack-action hit)</td>
 </tr>
 <tr>
 <td><strong>Handaxe</strong></td>
-<td align="center">+6</td>
+<td align="center">+7</td>
 <td>1d6+4</td>
 <td>Thrown 20/60, Vex</td>
 </tr>
@@ -105,8 +106,8 @@
 </table>
 <p><strong>Cleave:</strong> On hit → free attack vs. adjacent creature (1d12 only, no mod)
 <strong>Vex:</strong> On hit → Advantage on next attack vs. same target
-<strong>Heavy Weapon Mastery (GWM):</strong> +2 damage on <em>every</em> hit with a Heavy weapon as part of the Attack action (not Hew or reactions; Cleave hit = DM call, RAW ambiguous)
-<strong>Savage Attacker:</strong> 1/turn, reroll damage dice, take either</p>
+<strong>Heavy Weapon Mastery (GWM):</strong> +3 damage on <em>every</em> hit with a Heavy weapon as part of the Attack action (not Hew or reactions; Cleave hit = DM call, RAW ambiguous)
+<strong>Savage Attacker:</strong> 1/turn, roll damage dice twice, take either</p>
 <hr />
 <h2>RESOURCES</h2>
 <table>
@@ -120,11 +121,11 @@
 <tbody>
 <tr>
 <td>Hit Dice (1d10+3 heal)</td>
-<td align="center">○ ○ ○ ○</td>
+<td align="center">○ ○ ○ ○ ○</td>
 <td>Long (half)</td>
 </tr>
 <tr>
-<td>Second Wind (1d10+4 heal)</td>
+<td>Second Wind (1d10+5 heal)</td>
 <td align="center">○ ○ ○</td>
 <td>Short: 1, Long: all</td>
 </tr>
@@ -159,12 +160,12 @@
 <h2>TURN OPTIONS</h2>
 <h3>Action</h3>
 <ul>
-<li><strong>Attack</strong> (1 attack, or 2 with Action Surge)</li>
+<li><strong>Attack</strong> → <strong>2 attacks</strong> (Extra Attack); 4 with Action Surge</li>
 <li><strong>Action Surge</strong> → Take another Action this turn</li>
 </ul>
 <h3>Bonus Action</h3>
 <ul>
-<li><strong>Second Wind</strong> → Heal 1d10+4</li>
+<li><strong>Second Wind</strong> → Heal 1d10+5 <strong>+ move 15 ft, no Opportunity Attacks</strong> (Tactical Shift)</li>
 <li><strong>Tactical Mind</strong> → Failed ability check? Spend Second Wind, add 1d10 (if still fails, not expended)</li>
 <li><strong>Hew (GWM)</strong> → After crit or kill with Heavy weapon, attack again with that weapon</li>
 <li><strong>Lunging Attack (1 die)</strong> → Dash; move ≥5 ft straight before a melee hit (Attack action) → +1d8 dmg</li>
@@ -182,7 +183,7 @@
 </ul>
 <p><em>(Heavy Weapon Mastery is not 1/turn — it's every Attack-action hit, see Attacks)</em></p>
 <hr />
-<h2>MANEUVERS (DC 14, cost 1 Superiority Die, max 1 maneuver per attack) — <em>PHB pp. 93–94</em></h2>
+<h2>MANEUVERS (DC 15, cost 1 Superiority Die, max 1 maneuver per attack) — <em>PHB pp. 93–94</em></h2>
 <p><strong>Superiority Dice:</strong> ○ ○ ○ ○ <em>(d8, regain all on Short/Long Rest)</em></p>
 <table>
 <thead>
@@ -225,30 +226,69 @@
 <tbody>
 <tr>
 <td>Athletics</td>
-<td align="center">+6</td>
+<td align="center">+7</td>
 <td></td>
 <td>Stealth</td>
-<td align="center">+3 (Disadv)</td>
+<td align="center">+4 (Disadv)</td>
 </tr>
 <tr>
 <td>Intimidation</td>
-<td align="center">+1</td>
+<td align="center">+2</td>
 <td></td>
 <td>Survival</td>
-<td align="center">+2</td>
+<td align="center">+3</td>
 </tr>
 <tr>
 <td>Perception</td>
-<td align="center">+2</td>
+<td align="center">+3</td>
 <td></td>
 <td>Animal Handling</td>
-<td align="center">+2</td>
+<td align="center">+3</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Passive Perception:</strong> 12</p>
+<p><strong>Passive Perception:</strong> 13</p>
 <p><strong>Tools:</strong> Gaming set, Brewer's Supplies</p>
 <p><strong>Languages:</strong> Common, <em>(2 open — every 2024 PC knows Common + two standard languages, PHB p. 37)</em></p>
+<hr />
+<h1>FIGHTING TECHNIQUES</h1>
+<hr />
+<h2>Standard Turn</h2>
+<ul>
+<li><strong>Two greataxe swings</strong> (+7, 1d12+7 each with HWM). Pick a target whose neighbor you also want dead — a hit lets <strong>Cleave</strong> carry into the creature next to it (free 1d12, once/turn)</li>
+<li><strong>Savage Attacker</strong> on the biggest damage roll of the turn (1/turn)</li>
+<li>Spend a superiority die when it matters: <strong>Goading</strong> (DC 15 WIS) on the enemy you want locked onto you</li>
+</ul>
+<h2>Opening Moves</h2>
+<ul>
+<li><strong>Out of reach?</strong> Throw a handaxe (+7, 20/60) — a hit triggers <strong>Vex</strong>: Advantage on your next attack vs. that target</li>
+<li><strong>Need to close fast?</strong> <strong>Lunging Attack</strong> (Bonus Action, 1 die): Dash, come in ≥5 ft straight → +1d8 on a melee hit this turn</li>
+</ul>
+<h2>Nova Turn <em>(the decisive round — boss revealed, ally down, breach to hold)</em></h2>
+<ol>
+<li><strong>Prime Earth's Grasp beforehand</strong> (1/long rest): your first hit forces DC 13 STR save → target <strong>Restrained</strong> — your remaining attacks <em>and the whole party's</em> get Advantage, its attacks have Disadvantage</li>
+<li>Attack (2 swings) → <strong>Action Surge</strong> → Attack again = <strong>4 × (1d12+7)</strong></li>
+<li>Maneuver die on key hits (max 1 per attack)</li>
+<li>Any kill or crit → <strong>Hew</strong> (Bonus Action): 5th swing</li>
+</ol>
+<h2>Your One Reaction — spend it wisely</h2>
+<ol>
+<li><strong>Rune Stone Shield</strong> <em>(1/short rest)</em> — a big attack is about to hit by ≤5? AC 16 → 21, likely turning it into a miss. Auto-negates <em>Magic Missile</em></li>
+<li><strong>Riposte</strong> <em>(1 die)</em> — melee enemy missed you? Punish: +7, 1d12+4+1d8</li>
+<li><strong>Opportunity Attack</strong> — enemy leaves your reach</li>
+</ol>
+<h2>Staying Alive</h2>
+<ul>
+<li><strong>Second Wind</strong> (Bonus Action, 3/rest): heal 1d10+5 <strong>and</strong> shift 15 ft with no Opportunity Attacks — heal-and-reposition, or escape a surround</li>
+<li>Playing tank: <strong>Goad</strong> the biggest hitter — Disadvantage on attacks against anyone but you, and you have AC 16 + the Shield stone</li>
+<li><strong>Heroic Inspiration</strong>: hold it for a failed save or a must-land attack</li>
+</ul>
+<h2>Resource Pacing</h2>
+<ul>
+<li><strong>Superiority dice (4)</strong>: refresh on <em>short</em> rest — spend 1-2 per fight, don't hoard</li>
+<li><strong>Action Surge (1/rest)</strong>: for the decisive round, not round one by habit</li>
+<li><strong>Rune Stone</strong>: Shield freely (short rest); <strong>Earth's Grasp only once per day</strong> — save it for the fight that matters</li>
+</ul>
 <hr />
 <h1>REFERENCE</h1>
 <hr />
@@ -271,7 +311,7 @@
 </tr>
 <tr>
 <td><strong>Class</strong></td>
-<td>Fighter 4 (Battle Master) <em>(PHB pp. 90, 93)</em></td>
+<td>Fighter 5 (Battle Master) <em>(PHB pp. 90, 93)</em></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
@@ -318,9 +358,11 @@
 <hr />
 <h2>Features</h2>
 <p><strong>Great Weapon Fighting</strong> — Damage rolls of 1-2 become 3 (two-handed weapons) <em>(PHB p. 209)</em></p>
-<p><strong>Tough</strong> — +2 HP per level (+8 at level 4) <em>(PHB p. 202)</em></p>
+<p><strong>Tough</strong> — +2 HP per level (+10 at level 5) <em>(PHB p. 202)</em></p>
 <p><strong>Heroic Inspiration</strong> — Gain after Long Rest; spend for Advantage on any d20 <em>(PHB p. 368)</em></p>
 <p><strong>Tactical Mind</strong> — Spend Second Wind on failed ability check → +1d10 (refunded if still fails) <em>(PHB p. 91)</em></p>
+<p><strong>Extra Attack</strong> <em>(L5)</em> — Attack twice when you take the Attack action <em>(PHB p. 92)</em></p>
+<p><strong>Tactical Shift</strong> <em>(L5)</em> — When you use Second Wind as a Bonus Action, move up to half your Speed without provoking Opportunity Attacks <em>(PHB p. 92)</em></p>
 <p><strong>Great Weapon Master</strong> <em>(L4 feat, PHB 2024 p. 204)</em></p>
 <ul>
 <li>+1 STR (applied)</li>
@@ -375,12 +417,16 @@
 <td>6 + 3 = 9</td>
 </tr>
 <tr>
+<td>5</td>
+<td>6 + 3 = 9</td>
+</tr>
+<tr>
 <td>Tough</td>
-<td>+8</td>
+<td>+10</td>
 </tr>
 <tr>
 <td><strong>Total</strong></td>
-<td><strong>48</strong></td>
+<td><strong>59</strong></td>
 </tr>
 </tbody>
 </table>
