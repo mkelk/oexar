@@ -1,5 +1,28 @@
 # Øxar Character Log
 
+## 2026-07-31
+
+### PHB 2024 Page References for the 2026-07-30 Changes (verified against book-extracted data)
+
+| Change | PHB 2024 ref |
+|--------|--------------|
+| Maneuver save DC formula (→ DC 14) | Combat Superiority, **p. 93** |
+| Superiority Dice (4×d8, Short/Long Rest), max 1 maneuver/attack | Combat Superiority, **p. 93** |
+| Lunging Attack 2024 version (also Goading, Riposte) | Maneuver Options, **p. 94** |
+| GWM Heavy Weapon Mastery (per-hit, not 1/turn) | Great Weapon Master, **p. 204** |
+| 4th Weapon Mastery at L4, swap one per Long Rest | Weapon Mastery, **p. 91** (Fighter class from p. 90) |
+| Second Wind 3 uses / Tactical Mind / Action Surge | **p. 91** |
+| Soldier background (no vehicle proficiency) | **p. 185** |
+| Languages: Common + two standard | Choose Languages, **p. 37** |
+| Weapon mastery properties (Cleave, Vex, Graze) | Mastery Properties, **p. 214** |
+| Savage Attacker / Tough (origin feats) | **p. 201** / **p. 202** |
+| Sentinel (planned L8) | **p. 207** |
+
+#### Corrections to previously logged page refs
+The 2025-12-03 refs were partly wrong: GWM is **p. 204** (not 201 — the sheet's original 204 was correct and has been restored after being wrongly "fixed" to 201 on 2026-07-30), Soldier is **p. 185** (not 179), Human is **p. 194** (not 170), Sentinel is **p. 207** (not 206). Battle Master is pp. 93–95 as logged; Fighter starts **p. 90** (not 91).
+
+---
+
 ## 2026-07-30
 
 ### Full 2024-Rules Sanity Check (web-verified)

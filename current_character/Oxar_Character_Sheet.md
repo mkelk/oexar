@@ -133,7 +133,7 @@
 
 **Tactical Mind** — Spend Second Wind on failed ability check → +1d10 (refunded if still fails)
 
-**Great Weapon Master** *(L4 feat, PHB 2024 p. 201)*
+**Great Weapon Master** *(L4 feat, PHB 2024 p. 204)*
 - +1 STR (applied)
 - **Heavy Weapon Mastery** — +PB damage on *each* hit with a Heavy weapon as part of the Attack action
 - **Hew** — Bonus Action attack with Heavy weapon after crit or reducing creature to 0 HP
