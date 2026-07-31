@@ -28,6 +28,17 @@
 - Unchanged: AC 16, superiority dice (4×d8), 3 maneuvers (next at L7), Second Wind 3 uses, Action Surge 1, Weapon Masteries 4
 - Still open: 4th Weapon Mastery choice, 2 languages
 
+#### Reconciled player hand-edits (same day)
+- Kept player annotations on RESOURCES (superiority dice "for maneuvers", Rune Stone usage notes, Cleave clarification)
+- **Player note "(re-roll any dice)" on Heroic Inspiration exposed a 2014 leftover**: the sheet said "spend for Advantage." 2024 rule (p. 368, verbatim): expend to *reroll any die* immediately after rolling, must use the new roll; a duplicate gain may be given to another player. RESOURCES, Features, and FIGHTING TECHNIQUES updated to reroll semantics.
+- Corrected "(DC 13 STR maneuver)" → "(DC 13 STR save)" on Earth's Grasp — it's the item's own save, not a Battle Master maneuver (those are DC 15)
+- Restored "Long: all" on Hit Dice (the hand-edit had come from a pre-fix copy of the line); fixed "maneuverr" typo
+
+#### Adversarial re-check of the L5 upgrade (same day)
+- All level-up numbers verified against book data: L5 grants exactly Extra Attack + Tactical Shift (p. 92), PB +3 cascade (+7 attacks, DC 15, HWM +3, saves, skills, PP 13), HP 59, 5d10 Hit Dice, Second Wind 1d10+5 at 3 uses; nothing gained was missed, nothing extra granted.
+- **Pre-existing error found and fixed:** Hit Dice reset was listed as "Long (half)" — that's the 2014 rule. The 2024 Long Rest restores **all** spent Hit Point Dice (PHB p. 370, verified verbatim). RESOURCES table corrected to "Long: all".
+- Flagged in FIGHTING TECHNIQUES: the Earth's Grasp → party-wide Advantage line is the natural reading of the custom item's wording; exact Restrained timing/duration marked as a DM call.
+
 #### Added: FIGHTING TECHNIQUES section
 New best-practice tactics page on the sheet: standard turn, openers, nova turn (with Earth's Grasp priming), reaction priority (Rune Stone Shield vs. Riposte vs. Opportunity Attack), survival tools, and resource pacing.
 
