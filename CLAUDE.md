@@ -28,6 +28,13 @@ Character management is guided by these official Wizards of the Coast sources:
 
 ## Data Authority
 
+**HARD RULE: Any change to the character sheet MUST be based on verified rules knowledge.** Verified means: the exact rule text or number was retrieved this session from source 1 or 2 below and read directly. The following are NOT sufficient grounds for a sheet change, ever:
+- Training memory, however confident it feels (it has produced wrong page numbers and 2014/2024 rule confusion in this repo before)
+- Web search result snippets or AI summaries of search results (these gave contradictory page numbers for the same feat)
+- Third-party blogs, forum remarks, or guides, unless used only as a pointer to then verify against source 1 or 2
+
+If a rule cannot be verified, say so explicitly and either leave the sheet unchanged or mark the item as unverified/DM-call. When any source conflicts with the player's physical PHB, the book wins.
+
 Claude does NOT have access to the full PHB 2024 text. Authority hierarchy for rules claims, highest first:
 
 1. **The player's physical PHB 2024** — the only true ground truth. On any discrepancy, the book wins.
