@@ -1,5 +1,32 @@
 # Øxar Character Log
 
+## 2026-09-24
+
+### Added: Gold (placeholder — check actual amount)
+Player's session notes said "NB! Tilføj gp" (add gold); the sheet had no currency line. Actual amount unknown, so the starting-equipment default was entered and flagged: **18 GP** = Fighter equipment option A, 4 GP (p. 90; chain mail + Dungeoneer's Pack match that package) + Soldier equipment option A, 14 GP (p. 185). Both values verified in the 5etools book data. Øxar's weapons (greataxe, handaxes) match neither package exactly, so the real figure may differ. Replace it once known.
+
+### 4th Weapon Mastery chosen: Maul (Topple)
+Fills the open L4 slot. Maul: 2d6 bludgeoning, Heavy, Two-Handed, Topple, 10 GP (p. 215). Topple (p. 214, verbatim): on a hit, target makes a CON save (8 + STR mod + PB = **DC 15**) or is Prone. Prone (p. 372): attacks from within 5 ft have Advantage, from farther away Disadvantage; the prone creature's attacks have Disadvantage; it can't stand up while its Speed is 0. Rationale: the single-target counterpart to the Greataxe's Cleave, Heavy so GWM's +3 and Hew still apply, and 2d6 with GWF averages 8 vs. 6.75 for the Greataxe's 1d12. **Not owned yet — buy.** Added to ATTACKS (row + Topple line) and Equipment. The mastery swap rule is noted: one weapon choice per Long Rest (p. 91, verbatim).
+
+### Added: BATTLE SCENARIOS page (new page 3)
+Five scenario playbooks: Big Brute (Maul/Topple + Action Surge, Earth's Grasp lock-down), Mob (Greataxe/Cleave + Hew), Bodyguard (Goading, maul Opportunity Attacks), Archers & Casters (Lunging, Vex, Rune Stone), Emergency. Rules cited were checked against 5etools book data this session: Attack action equip/unequip (p. 361), Dash (p. 365), Opportunity Attack (p. 371), Prone (p. 372), Restrained (p. 373), Goading/Lunging/Riposte, GWM, Savage Attacker. Earth's Grasp duration remains a DM call (custom item).
+
+### Layout / housekeeping
+- Merged Current HP + Death Saves and Passive Perception + Tools onto single lines so page 1 still fits
+- HTML: removed a stray duplicated partial `<head>` block at the top of the file; `<title>` corrected from "Level 4" to "Level 5"
+
+### Languages: TODO added
+Still 2 open standard languages (p. 37). Added a TODO to ask the DM whether the Svilland setting has its own languages (e.g. a Norse tongue) before picking.
+
+---
+
+## 2026-08-01
+
+### Tactical Mind is not a Bonus Action (player caught it)
+The sheet listed Tactical Mind under Bonus Action — wrong. The 2024 text (Fighter, p. 91, verified verbatim) gives it **no action cost**: it triggers on any failed ability check, anytime, in or out of combat. It expends a Second Wind *use* but is not the Second Wind Bonus Action, so no Tactical Shift movement applies and it doesn't compete for the Bonus Action. Moved to a new "No Action" subsection in TURN OPTIONS.
+
+---
+
 ## 2026-07-31 (later)
 
 ### Level Up: 4 → 5

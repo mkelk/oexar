@@ -2,15 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Øxar — Level 4 Battle Master</title>
-<style>
-  @page { size: A4; margin: 9mm 12mm; }
-  * { box-sizing: border-box; }
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Øxar — Level 4 Battle Master</title>
+<title>Øxar — Level 5 Battle Master</title>
 <style>
   @page { size: A4; margin: 9mm 12mm; }
   * { box-sizing: border-box; }
@@ -30,6 +22,7 @@
   }
   h3 { font-size: 10.5px; margin: 5px 0 2px 0; page-break-after: avoid; color: #7a1f1f; }
   hr { border: none; border-top: 1px solid #ccc; margin: 6px 0; }
+  hr:has(+ h1) { display: none; }
   table { border-collapse: collapse; width: 100%; margin: 3px 0; page-break-inside: avoid; }
   th, td { border: 1px solid #999; padding: 2px 5px; text-align: left; }
   th { background: #f0e6e6; font-size: 10px; }
@@ -76,8 +69,7 @@
 </tr>
 </thead>
 </table>
-<p><strong>Current HP:</strong> _____ / 59</p>
-<p><strong>Death Saves:</strong> Success ○ ○ ○ | Failure ○ ○ ○</p>
+<p><strong>Current HP:</strong> _____ / 59 &nbsp;&nbsp;·&nbsp;&nbsp; <strong>Death Saves:</strong> Success ○ ○ ○ | Failure ○ ○ ○</p>
 <hr />
 <h2>ATTACKS</h2>
 <table>
@@ -102,10 +94,17 @@
 <td>1d6+4</td>
 <td>Thrown 20/60, Vex</td>
 </tr>
+<tr>
+<td><strong>Maul</strong> <em>(to buy)</em></td>
+<td align="center">+7</td>
+<td>2d6+4</td>
+<td>1-2→3, Topple, +3 dmg w/ HWM</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Cleave:</strong> On hit → free attack vs. adjacent creature (1d12 only, no mod)
 <strong>Vex:</strong> On hit → Advantage on next attack vs. same target
+<strong>Topple:</strong> On hit → DC 15 CON save or Prone (attacks within 5 ft have Advantage vs. it)
 <strong>Heavy Weapon Mastery (GWM):</strong> +3 damage on <em>every</em> hit with a Heavy weapon as part of the Attack action (not Hew or reactions; Cleave hit = DM call, RAW ambiguous)
 <strong>Savage Attacker:</strong> 1/turn, roll damage dice twice, take either</p>
 <hr />
@@ -166,9 +165,12 @@
 <h3>Bonus Action</h3>
 <ul>
 <li><strong>Second Wind</strong> → Heal 1d10+5 <strong>+ move 15 ft, no Opportunity Attacks</strong> (Tactical Shift)</li>
-<li><strong>Tactical Mind</strong> → Failed ability check? Spend Second Wind, add 1d10 (if still fails, not expended)</li>
 <li><strong>Hew (GWM)</strong> → After crit or kill with Heavy weapon, attack again with that weapon</li>
 <li><strong>Lunging Attack (1 die)</strong> → Dash; move ≥5 ft straight before a melee hit (Attack action) → +1d8 dmg</li>
+</ul>
+<h3>No Action (anytime, even out of combat)</h3>
+<ul>
+<li><strong>Tactical Mind</strong> → Failed ability check? Expend a Second Wind <em>use</em>, add 1d10 (if still fails, use refunded; no Tactical Shift movement)</li>
 </ul>
 <h3>Reaction</h3>
 <ul>
@@ -247,9 +249,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Passive Perception:</strong> 13</p>
-<p><strong>Tools:</strong> Gaming set, Brewer's Supplies</p>
-<p><strong>Languages:</strong> Common, <em>(2 open — every 2024 PC knows Common + two standard languages, PHB p. 37)</em></p>
+<p><strong>Passive Perception:</strong> 13 &nbsp;&nbsp;·&nbsp;&nbsp; <strong>Tools:</strong> Gaming set, Brewer's Supplies</p>
+<p><strong>Languages:</strong> Common + 2 open <em>(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)</em></p>
 <hr />
 <h1>FIGHTING TECHNIQUES</h1>
 <hr />
@@ -288,6 +289,48 @@
 <li><strong>Superiority dice (4)</strong>: refresh on <em>short</em> rest — spend 1-2 per fight, don't hoard</li>
 <li><strong>Action Surge (1/rest)</strong>: for the decisive round, not round one by habit</li>
 <li><strong>Rune Stone</strong>: Shield freely (short rest); <strong>Earth's Grasp only once per day</strong> — save it for the fight that matters</li>
+</ul>
+<hr />
+<h1>BATTLE SCENARIOS</h1>
+<hr />
+<p><strong>Which weapon?</strong> Two or more enemies side by side → <strong>Greataxe</strong> (Cleave). One big target → <strong>Maul</strong> (Topple). Average per hit with GWF + HWM: greataxe ≈ 13.75, maul ≈ 15.</p>
+<p><em>Swapping mid-turn: each attack lets you equip <strong>or</strong> unequip one weapon (PHB p. 361). Swing the greataxe, drop it, draw the maul before swing 2.</em></p>
+<h2>1. The Big Brute — one tough enemy (ogre, troll, boss)</h2>
+<ul>
+<li><strong>Weapon: Maul.</strong> Swing 1 → <strong>Topple</strong> (DC 15 CON). If it falls Prone, your swings from within 5 ft have <strong>Advantage</strong>, and so do your melee allies' attacks. Its own attack rolls have Disadvantage <em>(PHB p. 372)</em></li>
+<li><strong>Decisive fight?</strong> Use <strong>Action Surge</strong> <em>after</em> it's down, for more swings with Advantage</li>
+<li><strong>Lock-down combo:</strong> Earth's Grasp (can't move, Restrained) + Topple. A Prone creature with Speed 0 can't stand up <em>(PHB p. 372)</em>. <em>Earth's Grasp exact duration = DM call</em></li>
+<li>Once it's Prone, spend dice on <strong>Goading</strong>. It has Disadvantage attacking anyone but you, and it's already attacking at Disadvantage while Prone</li>
+<li>⚠️ Warn the archers: ranged attacks against a Prone target have <strong>Disadvantage</strong></li>
+</ul>
+<h2>2. The Mob — many weaker enemies</h2>
+<ul>
+<li><strong>Weapon: Greataxe.</strong> Step in where two enemies stand next to each other. Your first hit each turn → <strong>Cleave</strong> into the neighbor (1d12, 1/turn)</li>
+<li>Aim at the wounded: a kill triggers <strong>Hew</strong> (Bonus Action), which is a 3rd swing</li>
+<li><strong>Savage Attacker</strong> on the hit that's close to a kill, to secure it and the Hew</li>
+<li>Don't spend Superiority Dice on minions. Save them for <strong>Riposte</strong> against the ones that miss you</li>
+<li>Surrounded and hurting? <strong>Second Wind</strong> heals 1d10+5 and moves you 15 ft without Opportunity Attacks</li>
+</ul>
+<h2>3. Bodyguard — protect a fragile ally / hold a doorway</h2>
+<ul>
+<li><strong>Weapon: Maul</strong> (Greataxe if they come in packs). Stand in the chokepoint between the enemies and your ally</li>
+<li><strong>Goading</strong> on the biggest hitter: Disadvantage on its attacks against anyone but you (WIS save)</li>
+<li><strong>Opportunity Attack with the maul</strong> as they slip past. Topple works on <em>any</em> hit with it, so a Prone target can only crawl or spend half its Speed standing up</li>
+<li>A big hit about to land on you by ≤5? <strong>Rune Stone Shield</strong> (+5 AC)</li>
+<li><em>(Sentinel at L8 makes this your specialty)</em></li>
+</ul>
+<h2>4. Archers & Casters — enemies at range</h2>
+<ul>
+<li><strong>Close fast:</strong> <strong>Lunging Attack</strong> (Bonus Action, 1 die) = Dash (60 ft total), then Attack. Move ≥5 ft straight right before the hit for +1d8</li>
+<li><strong>Can't reach?</strong> Throw a handaxe (20/60). A hit gives <strong>Vex</strong>: Advantage on your next attack against it</li>
+<li><strong>Casters:</strong> Rune Stone Shield blocks <em>Magic Missile</em>. <strong>Earth's Grasp</strong> → Restrained: its attack rolls have Disadvantage, and so do its DEX saves <em>(PHB p. 373)</em>. <strong>Topple</strong> also puts its attack rolls at Disadvantage</li>
+</ul>
+<h2>5. Emergency — you're dropping fast</h2>
+<ul>
+<li><strong>Second Wind</strong> first (Bonus Action): +1d10+5 HP <strong>and</strong> 15 ft away without Opportunity Attacks, to get out of a surround</li>
+<li><strong>Rune Stone Shield</strong> on the next hit that lands by ≤5</li>
+<li><strong>Heroic Inspiration</strong> to re-roll a failed save. WIS saves (+0) are your weak spot against fear and charm</li>
+<li>Turn it around: an enemy you've Toppled or Restrained attacks at Disadvantage</li>
 </ul>
 <hr />
 <h1>REFERENCE</h1>
@@ -376,7 +419,8 @@
 <li><strong>Greataxe</strong> — 1d12+4, Heavy, Two-Handed, Cleave mastery</li>
 <li><strong>Handaxes (2)</strong> — 1d6+4, Light, Thrown 20/60, Vex mastery</li>
 <li><strong>Greatsword</strong> <em>(mastery known, not owned)</em> — 2d6+4, Graze mastery</li>
-<li><strong>⚠️ Open mastery slot</strong> — Fighter L4 grants a 4th Weapon Mastery <em>(not yet chosen; may also swap one mastery choice each Long Rest)</em></li>
+<li><strong>Maul</strong> <em>(4th mastery, L4; ⚠️ not owned yet — buy, 10 GP)</em> — 2d6+4, Heavy, Two-Handed, Topple mastery</li>
+<li><em>Masteries: may swap one weapon choice each Long Rest (PHB p. 91)</em></li>
 </ul>
 <h3>Armor</h3>
 <ul>
@@ -384,6 +428,7 @@
 </ul>
 <h3>Gear (Dungeoneer's Pack)</h3>
 <p>Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, Rations (10 days), Waterskin</p>
+<p><strong>Gold:</strong> 18 GP <em>(⚠️ starting-equipment default, PHB pp. 90, 185 — check actual amount)</em></p>
 <h3>Magic Items</h3>
 <p><strong>Rune Stone</strong> — Single stone bearing one carved rune. The rune offers two possible effects; each effect has its own recharge.</p>
 <ul>
@@ -439,5 +484,5 @@
 <li>Reaction attack when adjacent creature attacks someone else</li>
 </ul>
 <hr />
-<p><em>Last Updated: 2026-07-31</em></p>
+<p><em>Last Updated: 2026-09-24</em></p>
 </body></html>

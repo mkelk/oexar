@@ -11,9 +11,7 @@
 | Saves | STR +7 | CON +6 |
 |-------|:------:|:------:|
 
-**Current HP:** _____ / 59
-
-**Death Saves:** Success ○ ○ ○ | Failure ○ ○ ○
+**Current HP:** _____ / 59 · **Death Saves:** Success ○ ○ ○ | Failure ○ ○ ○
 
 ---
 
@@ -23,9 +21,11 @@
 |--------|:---:|--------|-------|
 | **Greataxe** | +7 | 1d12+4 | 1-2→3, Cleave, +3 dmg w/ HWM (every Attack-action hit) |
 | **Handaxe** | +7 | 1d6+4 | Thrown 20/60, Vex |
+| **Maul** *(to buy)* | +7 | 2d6+4 | 1-2→3, Topple, +3 dmg w/ HWM |
 
 **Cleave:** On hit → free attack vs. adjacent creature (1d12 only, no mod)
 **Vex:** On hit → Advantage on next attack vs. same target
+**Topple:** On hit → DC 15 CON save or Prone (attacks within 5 ft have Advantage vs. it)
 **Heavy Weapon Mastery (GWM):** +3 damage on *every* hit with a Heavy weapon as part of the Attack action (not Hew or reactions; Cleave hit = DM call, RAW ambiguous)
 **Savage Attacker:** 1/turn, roll damage dice twice, take either
 
@@ -53,9 +53,11 @@
 
 ### Bonus Action
 - **Second Wind** → Heal 1d10+5 **+ move 15 ft, no Opportunity Attacks** (Tactical Shift)
-- **Tactical Mind** → Failed ability check? Spend Second Wind, add 1d10 (if still fails, not expended)
 - **Hew (GWM)** → After crit or kill with Heavy weapon, attack again with that weapon
 - **Lunging Attack (1 die)** → Dash; move ≥5 ft straight before a melee hit (Attack action) → +1d8 dmg
+
+### No Action (anytime, even out of combat)
+- **Tactical Mind** → Failed ability check? Expend a Second Wind *use*, add 1d10 (if still fails, use refunded; no Tactical Shift movement)
 
 ### Reaction
 - **Riposte** → Enemy misses you? Attack back +1d8 damage
@@ -90,11 +92,9 @@
 | Intimidation | +2 | | Survival | +3 |
 | Perception | +3 | | Animal Handling | +3 |
 
-**Passive Perception:** 13
+**Passive Perception:** 13 · **Tools:** Gaming set, Brewer's Supplies
 
-**Tools:** Gaming set, Brewer's Supplies
-
-**Languages:** Common, *(2 open — every 2024 PC knows Common + two standard languages, PHB p. 37)*
+**Languages:** Common + 2 open *(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)*
 
 ---
 
@@ -131,6 +131,47 @@
 - **Superiority dice (4)**: refresh on *short* rest — spend 1-2 per fight, don't hoard
 - **Action Surge (1/rest)**: for the decisive round, not round one by habit
 - **Rune Stone**: Shield freely (short rest); **Earth's Grasp only once per day** — save it for the fight that matters
+
+---
+
+# BATTLE SCENARIOS
+
+---
+
+**Which weapon?** Two or more enemies side by side → **Greataxe** (Cleave). One big target → **Maul** (Topple). Average per hit with GWF + HWM: greataxe ≈ 13.75, maul ≈ 15.
+*Swapping mid-turn: each attack lets you equip **or** unequip one weapon (PHB p. 361). Swing the greataxe, drop it, draw the maul before swing 2.*
+
+## 1. The Big Brute — one tough enemy (ogre, troll, boss)
+- **Weapon: Maul.** Swing 1 → **Topple** (DC 15 CON). If it falls Prone, your swings from within 5 ft have **Advantage**, and so do your melee allies' attacks. Its own attack rolls have Disadvantage *(PHB p. 372)*
+- **Decisive fight?** Use **Action Surge** *after* it's down, for more swings with Advantage
+- **Lock-down combo:** Earth's Grasp (can't move, Restrained) + Topple. A Prone creature with Speed 0 can't stand up *(PHB p. 372)*. *Earth's Grasp exact duration = DM call*
+- Once it's Prone, spend dice on **Goading**. It has Disadvantage attacking anyone but you, and it's already attacking at Disadvantage while Prone
+- ⚠️ Warn the archers: ranged attacks against a Prone target have **Disadvantage**
+
+## 2. The Mob — many weaker enemies
+- **Weapon: Greataxe.** Step in where two enemies stand next to each other. Your first hit each turn → **Cleave** into the neighbor (1d12, 1/turn)
+- Aim at the wounded: a kill triggers **Hew** (Bonus Action), which is a 3rd swing
+- **Savage Attacker** on the hit that's close to a kill, to secure it and the Hew
+- Don't spend Superiority Dice on minions. Save them for **Riposte** against the ones that miss you
+- Surrounded and hurting? **Second Wind** heals 1d10+5 and moves you 15 ft without Opportunity Attacks
+
+## 3. Bodyguard — protect a fragile ally / hold a doorway
+- **Weapon: Maul** (Greataxe if they come in packs). Stand in the chokepoint between the enemies and your ally
+- **Goading** on the biggest hitter: Disadvantage on its attacks against anyone but you (WIS save)
+- **Opportunity Attack with the maul** as they slip past. Topple works on *any* hit with it, so a Prone target can only crawl or spend half its Speed standing up
+- A big hit about to land on you by ≤5? **Rune Stone Shield** (+5 AC)
+- *(Sentinel at L8 makes this your specialty)*
+
+## 4. Archers & Casters — enemies at range
+- **Close fast:** **Lunging Attack** (Bonus Action, 1 die) = Dash (60 ft total), then Attack. Move ≥5 ft straight right before the hit for +1d8
+- **Can't reach?** Throw a handaxe (20/60). A hit gives **Vex**: Advantage on your next attack against it
+- **Casters:** Rune Stone Shield blocks *Magic Missile*. **Earth's Grasp** → Restrained: its attack rolls have Disadvantage, and so do its DEX saves *(PHB p. 373)*. **Topple** also puts its attack rolls at Disadvantage
+
+## 5. Emergency — you're dropping fast
+- **Second Wind** first (Bonus Action): +1d10+5 HP **and** 15 ft away without Opportunity Attacks, to get out of a surround
+- **Rune Stone Shield** on the next hit that lands by ≤5
+- **Heroic Inspiration** to re-roll a failed save. WIS saves (+0) are your weak spot against fear and charm
+- Turn it around: an enemy you've Toppled or Restrained attacks at Disadvantage
 
 ---
 
@@ -186,13 +227,16 @@
 - **Greataxe** — 1d12+4, Heavy, Two-Handed, Cleave mastery
 - **Handaxes (2)** — 1d6+4, Light, Thrown 20/60, Vex mastery
 - **Greatsword** *(mastery known, not owned)* — 2d6+4, Graze mastery
-- **⚠️ Open mastery slot** — Fighter L4 grants a 4th Weapon Mastery *(not yet chosen; may also swap one mastery choice each Long Rest)*
+- **Maul** *(4th mastery, L4; ⚠️ not owned yet — buy, 10 GP)* — 2d6+4, Heavy, Two-Handed, Topple mastery
+- *Masteries: may swap one weapon choice each Long Rest (PHB p. 91)*
 
 ### Armor
 - **Chain Mail** — AC 16, Stealth Disadvantage *(PHB p. 219)*
 
 ### Gear (Dungeoneer's Pack)
 Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, Rations (10 days), Waterskin
+
+**Gold:** 18 GP *(⚠️ starting-equipment default, PHB pp. 90, 185 — check actual amount)*
 
 ### Magic Items
 
@@ -226,4 +270,4 @@ Backpack, Crowbar, Hammer, Pitons (10), Rope (50 ft), Torches (10), Tinderbox, R
 
 ---
 
-*Last Updated: 2026-07-31*
+*Last Updated: 2026-09-24*
