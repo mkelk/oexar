@@ -8,8 +8,16 @@
 |:--:|:--:|:-----:|:----:|:----:|
 | 16 | 59 | 30 ft | +1 | +3 |
 
-| Saves | STR +7 | CON +6 |
-|-------|:------:|:------:|
+| | STR | DEX | CON | INT | WIS | CHA |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Score** | 18 | 12 | 16 | 10 | 11 | 8 |
+| **Mod** | +4 | +1 | +3 | +0 | +0 | -1 |
+| **Save** | **+7** | +1 | **+6** | +0 | +0 | -1 |
+| **Skills** | Athletics +7 | Stealth +4 *(Disadv)* | — | — | Perception +3, Survival +3, Animal Handling +3 | Intimidation +2 |
+
+**Passive Perception:** 13 · **Tools:** Gaming set, Brewer's Supplies
+
+**Languages:** Common + 2 open *(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)*
 
 **Current HP:** _____ / 59 · **Death Saves:** Success ○ ○ ○ | Failure ○ ○ ○
 
@@ -68,8 +76,6 @@
 - **Cleave** → After Greataxe hit (one more attack 2nd creature, only weapon dmg)
 - **Savage Attacker** → Roll damage dice twice, take either *(PHB p. 201)*
 
-*(Heavy Weapon Mastery is not 1/turn — it's every Attack-action hit, see Attacks)*
-
 ---
 
 ## MANEUVERS (DC 15, cost 1 Superiority Die, max 1 maneuver per attack) — *PHB pp. 93, 95*
@@ -81,20 +87,6 @@
 | **Goading** | On hit | +1d8 dmg, target has Disadv attacking others (WIS neg) |
 | **Lunging** | Bonus Action | Dash; move ≥5 ft straight before melee hit (Attack action) → +1d8 dmg |
 | **Riposte** | Enemy misses | Reaction attack, +1d8 dmg |
-
----
-
-## SKILLS
-
-| Skill | Mod | | Skill | Mod |
-|-------|:---:|-|-------|:---:|
-| Athletics | +7 | | Stealth | +4 (Disadv) |
-| Intimidation | +2 | | Survival | +3 |
-| Perception | +3 | | Animal Handling | +3 |
-
-**Passive Perception:** 13 · **Tools:** Gaming set, Brewer's Supplies
-
-**Languages:** Common + 2 open *(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)*
 
 ---
 
@@ -188,15 +180,6 @@
 | **Class** | Fighter 5 (Battle Master) *(PHB pp. 90, 93)* |
 | **Background** | Soldier *(PHB p. 185)* |
 | **Alignment** | Chaotic Good |
-
----
-
-## Ability Scores
-
-| STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 18 | 12 | 16 | 10 | 11 | 8 |
-| +4 | +1 | +3 | +0 | +0 | -1 |
 
 ---
 

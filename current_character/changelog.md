@@ -2,6 +2,9 @@
 
 ## 2026-09-24
 
+### Layout: ability scores moved to the top of page 1
+Player request: ability scores belong up front, not on the Reference page. COMBAT now has one ability table (Score / Mod / Save / Skills per ability), which replaces the separate Saves line, the SKILLS section, and the Reference "Ability Scores" table. Proficient saves (STR +7, CON +6) are in bold; the non-proficient saves are just the ability modifier. Passive Perception, Tools and Languages sit directly under the table. To keep page 1 on one page: the redundant "(Heavy Weapon Mastery is not 1/turn…)" note in TURN OPTIONS was removed (the ATTACKS section already says it), and heading/divider spacing was tightened slightly. No numbers changed.
+
 ### Corrections: Hew scope, maneuvers page ref
 - **Hew works with any Melee weapon, not only Heavy.** GWM text (p. 204, verbatim): "Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action." The sheet said "Heavy weapon" in TURN OPTIONS and Features; now corrected (e.g. a melee handaxe kill also triggers Hew). Heavy Weapon Mastery's +3 still requires a Heavy weapon.
 - **Maneuvers are on p. 95, not pp. 93–94.** Goading Attack, Lunging Attack and Riposte are on p. 95 per 5etools book data, and the player confirmed this against the physical PHB. MANEUVERS header is now "pp. 93, 95" (Combat Superiority rules p. 93, maneuvers p. 95). The 2026-07-31 table entry "Maneuver Options, p. 94" was wrong.

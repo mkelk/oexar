@@ -16,12 +16,12 @@
   }
   h1:not(:first-of-type) { page-break-before: always; margin-top: 0; }
   h2 {
-    font-size: 12px; margin: 7px 0 3px 0; page-break-after: avoid; padding: 2px 6px;
+    font-size: 12px; margin: 5px 0 3px 0; page-break-after: avoid; padding: 2px 6px;
     background: #7a1f1f; color: #fff; border-radius: 3px;
     letter-spacing: 0.5px;
   }
   h3 { font-size: 10.5px; margin: 5px 0 2px 0; page-break-after: avoid; color: #7a1f1f; }
-  hr { border: none; border-top: 1px solid #ccc; margin: 6px 0; }
+  hr { border: none; border-top: 1px solid #ccc; margin: 4px 0; }
   hr:has(+ h1) { display: none; }
   table { border-collapse: collapse; width: 100%; margin: 3px 0; page-break-inside: avoid; }
   th, td { border: 1px solid #999; padding: 2px 5px; text-align: left; }
@@ -30,6 +30,10 @@
   ul { margin: 2px 0; padding-left: 18px; }
   li { margin: 1.5px 0; }
   strong { color: #000; }
+  table.abil { table-layout: fixed; }
+  table.abil th:first-child { width: 10%; }
+  table.abil td, table.abil thead th { text-align: center; }
+  tr.skills td { font-size: 9px; line-height: 1.2; vertical-align: top; }
   em { color: #444; }
   h2 em { color: #f2dede; }
   /* big tracking circles for pencil marks */
@@ -60,15 +64,59 @@
 </tr>
 </tbody>
 </table>
-<table>
+<table class="abil">
 <thead>
 <tr>
-<th>Saves</th>
-<th align="center">STR +7</th>
-<th align="center">CON +6</th>
+<th></th>
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
 </tr>
 </thead>
+<tbody>
+<tr>
+<th>Score</th>
+<td align="center">18</td>
+<td align="center">12</td>
+<td align="center">16</td>
+<td align="center">10</td>
+<td align="center">11</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<th>Mod</th>
+<td align="center">+4</td>
+<td align="center">+1</td>
+<td align="center">+3</td>
+<td align="center">+0</td>
+<td align="center">+0</td>
+<td align="center">-1</td>
+</tr>
+<tr>
+<th>Save</th>
+<td align="center"><strong>+7</strong></td>
+<td align="center">+1</td>
+<td align="center"><strong>+6</strong></td>
+<td align="center">+0</td>
+<td align="center">+0</td>
+<td align="center">-1</td>
+</tr>
+<tr class="skills">
+<th>Skills</th>
+<td align="center">Athletics +7</td>
+<td align="center">Stealth +4 <em>(Disadv)</em></td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">Perception +3<br>Survival +3<br>Animal Handling +3</td>
+<td align="center">Intimidation +2</td>
+</tr>
+</tbody>
 </table>
+<p><strong>Passive Perception:</strong> 13 &nbsp;&nbsp;·&nbsp;&nbsp; <strong>Tools:</strong> Gaming set, Brewer's Supplies</p>
+<p><strong>Languages:</strong> Common + 2 open <em>(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)</em></p>
 <p><strong>Current HP:</strong> _____ / 59 &nbsp;&nbsp;·&nbsp;&nbsp; <strong>Death Saves:</strong> Success ○ ○ ○ | Failure ○ ○ ○</p>
 <hr />
 <h2>ATTACKS</h2>
@@ -183,7 +231,6 @@
 <li><strong>Cleave</strong> → After Greataxe hit (one more attack 2nd creature, only weapon dmg)</li>
 <li><strong>Savage Attacker</strong> → Roll damage dice twice, take either <em>(PHB p. 201)</em></li>
 </ul>
-<p><em>(Heavy Weapon Mastery is not 1/turn — it's every Attack-action hit, see Attacks)</em></p>
 <hr />
 <h2>MANEUVERS (DC 15, cost 1 Superiority Die, max 1 maneuver per attack) — <em>PHB pp. 93, 95</em></h2>
 <p><strong>Superiority Dice:</strong> ○ ○ ○ ○ <em>(d8, regain all on Short/Long Rest)</em></p>
@@ -213,44 +260,6 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2>SKILLS</h2>
-<table>
-<thead>
-<tr>
-<th>Skill</th>
-<th align="center">Mod</th>
-<th></th>
-<th>Skill</th>
-<th align="center">Mod</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Athletics</td>
-<td align="center">+7</td>
-<td></td>
-<td>Stealth</td>
-<td align="center">+4 (Disadv)</td>
-</tr>
-<tr>
-<td>Intimidation</td>
-<td align="center">+2</td>
-<td></td>
-<td>Survival</td>
-<td align="center">+3</td>
-</tr>
-<tr>
-<td>Perception</td>
-<td align="center">+3</td>
-<td></td>
-<td>Animal Handling</td>
-<td align="center">+3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Passive Perception:</strong> 13 &nbsp;&nbsp;·&nbsp;&nbsp; <strong>Tools:</strong> Gaming set, Brewer's Supplies</p>
-<p><strong>Languages:</strong> Common + 2 open <em>(standard languages, PHB p. 37 — ⚠️ TODO: ask DM if Svilland has its own, e.g. a Norse tongue)</em></p>
 <hr />
 <h1>FIGHTING TECHNIQUES</h1>
 <hr />
@@ -363,38 +372,6 @@
 <tr>
 <td><strong>Alignment</strong></td>
 <td>Chaotic Good</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>Ability Scores</h2>
-<table>
-<thead>
-<tr>
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">18</td>
-<td align="center">12</td>
-<td align="center">16</td>
-<td align="center">10</td>
-<td align="center">11</td>
-<td align="center">8</td>
-</tr>
-<tr>
-<td align="center">+4</td>
-<td align="center">+1</td>
-<td align="center">+3</td>
-<td align="center">+0</td>
-<td align="center">+0</td>
-<td align="center">-1</td>
 </tr>
 </tbody>
 </table>
