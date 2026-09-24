@@ -2,6 +2,10 @@
 
 ## 2026-09-24
 
+### Corrections: Hew scope, maneuvers page ref
+- **Hew works with any Melee weapon, not only Heavy.** GWM text (p. 204, verbatim): "Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action." The sheet said "Heavy weapon" in TURN OPTIONS and Features; now corrected (e.g. a melee handaxe kill also triggers Hew). Heavy Weapon Mastery's +3 still requires a Heavy weapon.
+- **Maneuvers are on p. 95, not pp. 93–94.** Goading Attack, Lunging Attack and Riposte are on p. 95 per 5etools book data, and the player confirmed this against the physical PHB. MANEUVERS header is now "pp. 93, 95" (Combat Superiority rules p. 93, maneuvers p. 95). The 2026-07-31 table entry "Maneuver Options, p. 94" was wrong.
+
 ### Added: Gold (placeholder — check actual amount)
 Player's session notes said "NB! Tilføj gp" (add gold); the sheet had no currency line. Actual amount unknown, so the starting-equipment default was entered and flagged: **18 GP** = Fighter equipment option A, 4 GP (p. 90; chain mail + Dungeoneer's Pack match that package) + Soldier equipment option A, 14 GP (p. 185). Both values verified in the 5etools book data. Øxar's weapons (greataxe, handaxes) match neither package exactly, so the real figure may differ. Replace it once known.
 

@@ -53,7 +53,7 @@
 
 ### Bonus Action
 - **Second Wind** → Heal 1d10+5 **+ move 15 ft, no Opportunity Attacks** (Tactical Shift)
-- **Hew (GWM)** → After crit or kill with Heavy weapon, attack again with that weapon
+- **Hew (GWM)** → After crit or kill with a melee weapon, attack again with that weapon
 - **Lunging Attack (1 die)** → Dash; move ≥5 ft straight before a melee hit (Attack action) → +1d8 dmg
 
 ### No Action (anytime, even out of combat)
@@ -72,7 +72,7 @@
 
 ---
 
-## MANEUVERS (DC 15, cost 1 Superiority Die, max 1 maneuver per attack) — *PHB pp. 93–94*
+## MANEUVERS (DC 15, cost 1 Superiority Die, max 1 maneuver per attack) — *PHB pp. 93, 95*
 
 **Superiority Dice:** ○ ○ ○ ○ *(d8, regain all on Short/Long Rest)*
 
@@ -217,7 +217,7 @@
 **Great Weapon Master** *(L4 feat, PHB 2024 p. 204)*
 - +1 STR (applied)
 - **Heavy Weapon Mastery** — +PB damage on *each* hit with a Heavy weapon as part of the Attack action
-- **Hew** — Bonus Action attack with Heavy weapon after crit or reducing creature to 0 HP
+- **Hew** — Bonus Action attack with a melee weapon after a crit or reducing a creature to 0 HP with it (any melee weapon, not only Heavy)
 
 ---
 
